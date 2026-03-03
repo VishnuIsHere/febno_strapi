@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_ai_heroes",
+  "info": {
+    "displayName": "hero",
+    "description": "AI Data Intelligence Hero Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "introText": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "primaryCTA": {
+      "type": "string"
+    },
+    "secondaryCTA": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "awspage.feature-card"
+    }
+  }
+}

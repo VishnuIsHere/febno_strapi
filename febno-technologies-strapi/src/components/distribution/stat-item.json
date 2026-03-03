@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_distribution_stat_items",
+  "info": {
+    "displayName": "Stat Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": { "type": "string" },
+    "value": { "type": "biginteger" },
+    "suffix": { "type": "string" },
+    "label": { "type": "string" }
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_azure_videos",
+    "info": {
+        "displayName": "Video",
+        "description": "Azure video item"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "videourl": {
+            "type": "text"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "collectionName": "components_zoho_app_case_study_items",
+    "info": {
+        "displayName": "case-study-item",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "short_id": {
+            "type": "string"
+        },
+        "company": {
+            "type": "string"
+        },
+        "tag": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "desc": {
+            "type": "text"
+        }
+    }
+}

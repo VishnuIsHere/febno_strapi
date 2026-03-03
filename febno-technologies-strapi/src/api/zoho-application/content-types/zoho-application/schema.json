@@ -1,0 +1,36 @@
+{
+    "kind": "singleType",
+    "collectionName": "zoho_applications",
+    "info": {
+        "singularName": "zoho-application",
+        "pluralName": "zoho-applications",
+        "displayName": "Zoho Application",
+        "description": "Page content for Zoho Applications and Services"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "hero_section": {
+            "type": "component",
+            "repeatable": false,
+            "component": "zoho-app.hero"
+        },
+        "app_cards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "zoho-app.app-item"
+        },
+        "service_cards": {
+            "type": "component",
+            "repeatable": false,
+            "component": "zoho-app.service-section"
+        },
+        "approach_cards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "zoho-app.approach-item"
+        }
+    }
+}

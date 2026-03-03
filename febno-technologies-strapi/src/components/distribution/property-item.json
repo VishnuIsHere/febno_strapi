@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_distribution_property_items",
+  "info": {
+    "displayName": "Property Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": { "type": "string" },
+    "title": { "type": "string" },
+    "description": { "type": "text" }
+  }
+}

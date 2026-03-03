@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_odoo_solutions",
+  "info": {
+    "displayName": "Solutions",
+    "description": "Solutions Grid Section"
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "odoo.card"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_insight_gallery_insight_galleries",
+  "info": {
+    "displayName": "insight-gallery"
+  },
+  "options": {},
+  "attributes": {
+    "galleryheading": {
+      "type": "component",
+      "component": "heading.heading1",
+      "repeatable": false
+    },
+    "imagecard": {
+      "type": "component",
+      "component": "insight-gallery.imagecard",
+      "repeatable": true
+    },
+    "gallerybtn": {
+      "type": "component",
+      "component": "button-items.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

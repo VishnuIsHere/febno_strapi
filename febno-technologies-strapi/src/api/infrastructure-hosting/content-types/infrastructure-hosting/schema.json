@@ -1,0 +1,61 @@
+{
+    "kind": "singleType",
+    "collectionName": "infrastructure_hostings",
+    "info": {
+        "singularName": "infrastructure-hosting",
+        "pluralName": "infrastructure-hostings",
+        "displayName": "Infrastructure & Hosting",
+        "description": "Content for the Infrastructure & Hosting page"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "hero": {
+            "type": "component",
+            "repeatable": false,
+            "component": "infra-hosting.hero"
+        },
+        "intro": {
+            "type": "component",
+            "repeatable": false,
+            "component": "infra-hosting.intro-section"
+        },
+        "platforms": {
+            "type": "component",
+            "repeatable": false,
+            "component": "infra-hosting.platform-section"
+        },
+        "case_studies": {
+            "type": "component",
+            "repeatable": false,
+            "component": "infra-hosting.case-study-section"
+        },
+        "knowledge_hub": {
+            "type": "component",
+            "repeatable": false,
+            "component": "infra-hosting.knowledge-hub"
+        },
+        "testimonials": {
+            "type": "component",
+            "repeatable": false,
+            "component": "infra-hosting.testimonial-section"
+        },
+        "insights": {
+            "type": "component",
+            "repeatable": false,
+            "component": "infra-hosting.insights-section"
+        },
+        "features": {
+            "type": "component",
+            "repeatable": false,
+            "component": "infra-hosting.features-section"
+        },
+        "faqs": {
+            "type": "component",
+            "repeatable": false,
+            "component": "infra-hosting.faq-section"
+        }
+    }
+}

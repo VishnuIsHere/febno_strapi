@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_infrastructure_page_services",
+    "info": {
+        "displayName": "Services",
+        "description": "Services section"
+    },
+    "options": {},
+    "attributes": {
+        "sectionTitle": {
+            "type": "string",
+            "required": true
+        },
+        "sectionSubtitle": {
+            "type": "text"
+        },
+        "serviceCards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.service-card"
+        }
+    }
+}

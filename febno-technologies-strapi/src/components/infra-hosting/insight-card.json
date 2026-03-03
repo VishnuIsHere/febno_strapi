@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_infra_hosting_insight_cards",
+  "info": {
+    "displayName": "Insight Card",
+    "description": "Latest insight card",
+    "icon": "lightbulb"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "readMoreUrl": {
+      "type": "string"
+    }
+  }
+}

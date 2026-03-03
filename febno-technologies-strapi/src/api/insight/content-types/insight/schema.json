@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "insights",
+  "info": {
+    "singularName": "insight",
+    "pluralName": "insights",
+    "displayName": "Insight"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "insightHero": {
+      "type": "component",
+      "component": "companyhome.company",
+      "repeatable": false
+    },
+    "insightnews": {
+      "type": "component",
+      "component": "insight-news.insight-news",
+      "repeatable": false
+    },
+    "insightevents": {
+      "type": "component",
+      "component": "insight-events.insight-events",
+      "repeatable": false
+    },
+    "insightblogs": {
+      "type": "component",
+      "component": "insight-blogs.insight-blogs",
+      "repeatable": false
+    },
+    "insightgallery": {
+      "type": "component",
+      "component": "insight-gallery.insight-gallery",
+      "repeatable": false
+    },
+    "insightvideo": {
+      "type": "component",
+      "component": "insight-video.insight-video",
+      "repeatable": false
+    },
+    "insightreview": {
+      "type": "component",
+      "component": "insight-review.insight-review",
+      "repeatable": false
+    },
+    "insightsubscription": {
+      "type": "component",
+      "component": "insight-subscription.insight-subscription",
+      "repeatable": false
+    }
+  }
+}

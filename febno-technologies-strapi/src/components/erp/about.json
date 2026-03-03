@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_erp_abouts",
+  "info": {
+    "displayName": "about",
+    "description": "About section for ERP page"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "About This Service"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

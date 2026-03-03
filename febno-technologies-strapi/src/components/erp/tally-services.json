@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_erp_tally_services",
+  "info": {
+    "displayName": "Tally Services",
+    "description": "Services section for Tally page"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "tagline": {
+      "type": "string",
+      "default": "POWER OF SIMPLICITY"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description1": {
+      "type": "text"
+    },
+    "description2": {
+      "type": "text"
+    },
+    "cardmaintitle": {
+      "type": "string"
+    },
+    "serviceList": {
+      "type": "component",
+      "component": "erp.tally-service-item",
+      "repeatable": true
+    }
+  }
+}

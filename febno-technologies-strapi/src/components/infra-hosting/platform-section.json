@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_infra_hosting_platform_sections",
+    "info": {
+        "displayName": "Platform Section",
+        "description": "Section displaying cloud platforms",
+        "icon": "cloud"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "platforms": {
+            "type": "component",
+            "repeatable": true,
+            "component": "infra-hosting.platform-card"
+        }
+    }
+}

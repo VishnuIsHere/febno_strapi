@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_distribution_ctas",
+  "info": {
+    "displayName": "CTA",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "description": { "type": "text" },
+    "primaryCTA": { "type": "string" },
+    "secondaryCTA": { "type": "string" }
+  }
+}

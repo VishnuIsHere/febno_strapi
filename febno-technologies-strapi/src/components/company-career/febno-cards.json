@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_company_career_febno_cards",
+  "info": {
+    "displayName": "febno_cards"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "features": {
+      "type": "component",
+      "component": "division.list",
+      "repeatable": true
+    },
+    "cards_button": {
+      "type": "component",
+      "component": "button-items.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

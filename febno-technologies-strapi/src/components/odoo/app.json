@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_odoo_apps",
+  "info": {
+    "displayName": "App",
+    "description": "App item for Integration section"
+  },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string" },
+    "icon": { "type": "string" }
+  }
+}

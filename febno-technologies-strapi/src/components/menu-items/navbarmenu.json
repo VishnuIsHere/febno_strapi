@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_menu_items_navbarmenus",
+  "info": {
+    "displayName": "navbarmenu"
+  },
+  "options": {},
+  "attributes": {
+    "menu_item": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "item": {
+      "type": "component",
+      "component": "subitems.item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

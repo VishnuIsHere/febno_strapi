@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_insight_events_insight_events",
+  "info": {
+    "displayName": "insight-events"
+  },
+  "options": {},
+  "attributes": {
+    "eventsheadings": {
+      "type": "component",
+      "component": "heading.heading1",
+      "repeatable": false
+    },
+    "eventcards": {
+      "type": "component",
+      "component": "insight-events.eventcards",
+      "repeatable": true
+    },
+    "events_btn": {
+      "type": "component",
+      "component": "button-items.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

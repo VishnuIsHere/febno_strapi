@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "company_qnas",
+  "info": {
+    "singularName": "company-qna",
+    "pluralName": "company-qnas",
+    "displayName": "Company_qna"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "qna_title": {
+      "type": "component",
+      "component": "heading.heading1",
+      "repeatable": false
+    },
+    "question_answer": {
+      "type": "component",
+      "component": "companyhome.qna",
+      "repeatable": true
+    }
+  }
+}

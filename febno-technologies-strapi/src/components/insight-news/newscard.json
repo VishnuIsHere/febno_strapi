@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_insight_news_newscards",
+  "info": {
+    "displayName": "newscard"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "string"
+    },
+    "cardcontent": {
+      "type": "component",
+      "component": "companyhome.content",
+      "repeatable": false
+    },
+    "highlight": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

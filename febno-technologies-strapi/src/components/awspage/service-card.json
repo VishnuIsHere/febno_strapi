@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_awspage_service_cards",
+  "info": {
+    "displayName": "Service Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "icon": { "type": "string" }
+  }
+}

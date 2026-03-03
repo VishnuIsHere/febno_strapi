@@ -1,0 +1,55 @@
+{
+    "kind": "singleType",
+    "collectionName": "productivity_collaborations",
+    "info": {
+        "singularName": "productivity-collaboration",
+        "pluralName": "productivity-collaborations",
+        "displayName": "Productivity Collaboration"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "hero": {
+            "type": "component",
+            "component": "awspage.hero",
+            "repeatable": false
+        },
+        "content": {
+            "type": "component",
+            "component": "productivity.content",
+            "repeatable": false
+        },
+        "platformSection": {
+            "type": "component",
+            "component": "productivity.platform-section",
+            "repeatable": false
+        },
+        "caseStudySection": {
+            "type": "component",
+            "component": "productivity.case-study-section",
+            "repeatable": false
+        },
+        "knowledgeHubSection": {
+            "type": "component",
+            "component": "productivity.knowledge-hub-section",
+            "repeatable": false
+        },
+        "insightSection": {
+            "type": "component",
+            "component": "productivity.insight-section",
+            "repeatable": false
+        },
+        "testimonialSection": {
+            "type": "component",
+            "component": "productivity.testimonial-section",
+            "repeatable": false
+        },
+        "faqSection": {
+            "type": "component",
+            "component": "productivity.faq-section",
+            "repeatable": false
+        }
+    }
+}

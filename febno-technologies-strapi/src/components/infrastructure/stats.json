@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_infrastructure_stats",
+  "info": {
+    "displayName": "stats",
+    "description": "Stats bar"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ai.stat"
+    }
+  }
+}

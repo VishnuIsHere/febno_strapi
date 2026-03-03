@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_heading_global_contents",
+  "info": {
+    "displayName": "global_content"
+  },
+  "options": {},
+  "attributes": {
+    "global_icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "number": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

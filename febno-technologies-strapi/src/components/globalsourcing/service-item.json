@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_globalsourcing_service_items",
+  "info": {
+    "displayName": "Service Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "description": { "type": "text" },
+    "icon": { "type": "string" },
+    "metrics": {
+      "type": "component",
+      "component": "awspage.stat-card",
+      "repeatable": true
+    }
+  }
+}

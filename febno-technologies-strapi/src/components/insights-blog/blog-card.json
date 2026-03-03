@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_insights_blog_blog_cards",
+  "info": {
+    "displayName": "Blog Card",
+    "description": "A single blog item for the Latest Blogs section"
+  },
+  "options": {},
+  "attributes": {
+    "cardImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "bullets": {
+      "type": "component",
+      "component": "shared.bullet",
+      "repeatable": true
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

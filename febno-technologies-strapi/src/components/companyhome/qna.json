@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_companyhome_qnas",
+  "info": {
+    "displayName": "qna"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "component",
+      "component": "companyhome.text",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

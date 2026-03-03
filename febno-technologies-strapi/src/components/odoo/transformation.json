@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_odoo_transformations",
+  "info": {
+    "displayName": "Transformation",
+    "description": "Business Transformation Slider Section"
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "description": { "type": "text" },
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "odoo.slide"
+    }
+  }
+}

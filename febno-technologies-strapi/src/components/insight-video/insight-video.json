@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_insight_video_insight_videos",
+  "info": {
+    "displayName": "insight-video"
+  },
+  "options": {},
+  "attributes": {
+    "videoheading": {
+      "type": "component",
+      "component": "heading.heading1",
+      "repeatable": false
+    },
+    "videocard": {
+      "type": "component",
+      "component": "insight-video.video-card",
+      "repeatable": true
+    },
+    "videobtn": {
+      "type": "component",
+      "component": "button-items.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

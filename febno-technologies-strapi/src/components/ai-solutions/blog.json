@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_ai_solutions_blogs",
+    "info": {
+        "displayName": "Blog",
+        "description": "Blog/Insights section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "posts": {
+            "type": "component",
+            "repeatable": true,
+            "component": "ai-solutions.blog-post"
+        }
+    }
+}

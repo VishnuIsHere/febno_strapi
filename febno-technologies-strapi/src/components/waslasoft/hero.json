@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_waslasoft_heroes",
+  "info": {
+    "displayName": "Hero",
+    "description": "Waslasoft Hero Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "description": { "type": "text" },
+    "primaryCTA": { "type": "string" },
+    "secondaryCTA": { "type": "string" },
+    "image": { "type": "media", "multiple": false, "required": false, "allowedTypes": ["images"] } 
+  }
+}

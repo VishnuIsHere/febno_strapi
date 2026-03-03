@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_azure_case_studies_sections",
+    "info": {
+        "displayName": "Case Studies Section",
+        "description": "Azure case studies section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "text"
+        },
+        "studies": {
+            "type": "component",
+            "repeatable": true,
+            "component": "azure.case-study"
+        }
+    }
+}

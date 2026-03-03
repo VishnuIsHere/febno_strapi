@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_quickbooks_reason_cards",
+    "info": {
+        "displayName": "Reason Card",
+        "description": "Why choose QuickBooks reason card"
+    },
+    "options": {},
+    "attributes": {
+        "iconName": {
+            "type": "string",
+            "required": true
+        },
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text",
+            "required": true
+        }
+    }
+}

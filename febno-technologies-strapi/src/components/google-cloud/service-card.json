@@ -1,0 +1,17 @@
+{
+    "collectionName": "components_google_cloud_service_cards",
+    "info": {
+        "displayName": "Service Card",
+        "icon": "server",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "icon": {
+            "type": "string"
+        }
+    }
+}

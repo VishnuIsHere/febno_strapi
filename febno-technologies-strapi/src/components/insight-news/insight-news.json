@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_insight_news_insight_news",
+  "info": {
+    "displayName": "insight-news"
+  },
+  "options": {},
+  "attributes": {
+    "newsheadings": {
+      "type": "component",
+      "component": "heading.heading1",
+      "repeatable": false
+    },
+    "newscard": {
+      "type": "component",
+      "component": "insight-news.newscard",
+      "repeatable": true
+    },
+    "news_btn": {
+      "type": "component",
+      "component": "button-items.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

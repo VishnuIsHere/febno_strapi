@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_division_divisioncategories",
+  "info": {
+    "displayName": "divisioncategory"
+  },
+  "options": {},
+  "attributes": {
+    "divisioncontent": {
+      "type": "component",
+      "component": "component-items.changablecomponent",
+      "repeatable": false
+    },
+    "listitems": {
+      "type": "component",
+      "component": "division.list",
+      "repeatable": true
+    },
+    "btn": {
+      "type": "component",
+      "component": "button-items.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

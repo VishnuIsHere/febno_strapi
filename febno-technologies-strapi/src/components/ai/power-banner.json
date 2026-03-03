@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ai_power_banners",
+  "info": {
+    "displayName": "power-banner",
+    "description": "AI Power Banner Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_waslasoft_success_stories",
+  "info": {
+    "displayName": "Success Stories",
+    "description": "Success Stories Section for Waslasoft"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Waslasoft Success Stories"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "see how businesses transformed their operations with waslasoft"
+    },
+    "stories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "waslasoft.success-story-card"
+    }
+  }
+}

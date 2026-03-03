@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "company_milestones",
+  "info": {
+    "singularName": "company-milestone",
+    "pluralName": "company-milestones",
+    "displayName": "Company_milestone"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "milestone_titles": {
+      "type": "component",
+      "component": "heading.heading1",
+      "repeatable": false
+    },
+    "cards": {
+      "type": "component",
+      "component": "companyhome.cards",
+      "repeatable": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ai_solutions_links",
+  "info": {
+    "displayName": "Link",
+    "description": "Nav or Action Link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "path": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ],
+      "default": "primary"
+    }
+  }
+}

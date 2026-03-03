@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_infra_hosting_insights_sections",
+    "info": {
+        "displayName": "Insights Section",
+        "description": "Section for latest insights",
+        "icon": "newspaper"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "insights": {
+            "type": "component",
+            "repeatable": true,
+            "component": "infra-hosting.insight-card"
+        }
+    }
+}

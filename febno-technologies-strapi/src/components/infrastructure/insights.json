@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_infrastructure_insights",
+  "info": {
+    "displayName": "insights",
+    "description": "Insights/Blog Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "awspage.feature-card"
+    }
+  }
+}

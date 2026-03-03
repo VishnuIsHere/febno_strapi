@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_azure_testimonials_sections",
+    "info": {
+        "displayName": "Testimonials Section",
+        "description": "Azure testimonials section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "text"
+        },
+        "reviews": {
+            "type": "component",
+            "repeatable": true,
+            "component": "azure.testimonial"
+        }
+    }
+}

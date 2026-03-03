@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_subitems_items",
+  "info": {
+    "displayName": "item"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "subitems": {
+      "type": "component",
+      "component": "subitems.sub-subitem",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

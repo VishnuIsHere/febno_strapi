@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_sourcings",
+  "info": {
+    "singularName": "global-sourcing",
+    "pluralName": "global-sourcings",
+    "displayName": "Global Sourcing Hub"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "awspage.hero",
+      "repeatable": false
+    },
+    "outsourcing_hub": {
+      "type": "component",
+      "component": "awspage.feature-grid",
+      "repeatable": false
+    },
+    "key_benefits": {
+      "type": "component",
+      "component": "awspage.feature-grid",
+      "repeatable": false
+    },
+    "outsourcing_services": {
+      "type": "component",
+      "component": "globalsourcing.service-list",
+      "repeatable": false
+    },
+    "talent_pool": {
+      "type": "component",
+      "component": "globalsourcing.talent-pool",
+      "repeatable": false
+    },
+    "partnerships": {
+      "type": "component",
+      "component": "globalsourcing.partnerships",
+      "repeatable": false
+    },
+    "success_stories": {
+      "type": "component",
+      "component": "globalsourcing.success-list",
+      "repeatable": false
+    }
+  }
+}

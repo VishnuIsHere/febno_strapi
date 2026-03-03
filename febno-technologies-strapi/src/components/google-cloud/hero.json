@@ -1,0 +1,34 @@
+{
+    "collectionName": "components_google_cloud_heroes",
+    "info": {
+        "displayName": "Hero",
+        "icon": "layout",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "text"
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "introText": {
+            "type": "text"
+        },
+        "description": {
+            "type": "text"
+        },
+        "primaryCTA": {
+            "type": "string"
+        },
+        "secondaryCTA": {
+            "type": "string"
+        },
+        "features": {
+            "type": "component",
+            "repeatable": true,
+            "component": "google-cloud.hero-feature"
+        }
+    }
+}

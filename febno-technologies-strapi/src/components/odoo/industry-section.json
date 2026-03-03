@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_odoo_industry_sections",
+  "info": {
+    "displayName": "Industry Section",
+    "description": "Industry Solutions Section"
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "odoo.industry-item"
+    }
+  }
+}

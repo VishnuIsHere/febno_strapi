@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_odoo_industry_tags",
+  "info": {
+    "displayName": "Industry Tag",
+    "description": "Tag for Industry Solutions"
+  },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string" }
+  }
+}

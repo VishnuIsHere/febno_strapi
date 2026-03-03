@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_ai_data_insights_benefits",
+    "info": {
+        "displayName": "Benefits",
+        "description": "Benefits section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "introText": {
+            "type": "text"
+        },
+        "description": {
+            "type": "text"
+        }
+    }
+}

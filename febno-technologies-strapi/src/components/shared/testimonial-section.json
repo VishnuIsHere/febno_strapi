@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_shared_testimonial_sections",
+    "info": {
+        "displayName": "Testimonial Section",
+        "icon": "quote-right",
+        "description": "A section containing testimonials"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "text"
+        },
+        "testimonialCards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.testimonial"
+        }
+    }
+}

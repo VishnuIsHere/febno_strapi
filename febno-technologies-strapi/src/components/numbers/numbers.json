@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_numbers_numbers",
+  "info": {
+    "displayName": "numbers"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "images": {
+      "type": "component",
+      "component": "images.footerimg",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

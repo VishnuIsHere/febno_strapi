@@ -1,0 +1,29 @@
+{
+    "collectionName": "components_azure_testimonials_items",
+    "info": {
+        "displayName": "Testimonial Item",
+        "description": "Azure testimonial item"
+    },
+    "options": {},
+    "attributes": {
+        "text": {
+            "type": "text"
+        },
+        "name": {
+            "type": "string"
+        },
+        "role": {
+            "type": "string"
+        },
+        "avatar": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ]
+        }
+    }
+}

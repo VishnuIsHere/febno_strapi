@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contactpage_letsconnects",
+  "info": {
+    "displayName": "letsconnect"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

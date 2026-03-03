@@ -1,0 +1,30 @@
+{
+    "collectionName": "components_shared_success_stories",
+    "info": {
+        "displayName": "Success Story",
+        "description": "Reusable success story/case study card"
+    },
+    "options": {},
+    "attributes": {
+        "iconName": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "category": {
+            "type": "string"
+        },
+        "headline": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text",
+            "required": true
+        },
+        "tags": {
+            "type": "json"
+        }
+    }
+}

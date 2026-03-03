@@ -1,0 +1,24 @@
+{
+    "collectionName": "components_insights_blog_latest_blogs_sections",
+    "info": {
+        "displayName": "Latest Blogs Section",
+        "description": "The wrapper section for the blog cards"
+    },
+    "options": {},
+    "attributes": {
+        "header": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "cards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "insights-blog.blog-card"
+        }
+    }
+}

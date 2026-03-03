@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_odoo_slides",
+  "info": {
+    "displayName": "Slide",
+    "description": "Slide for Business Transformation Carousel"
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "description": { "type": "text" },
+    "icon": { "type": "string" },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "customization",
+        "implementation",
+        "crm",
+        "module",
+        "support",
+        "accounting",
+        "inventory",
+        "strategy"
+      ]
+    },
+    "gradient": { "type": "string" },
+    "lineColor": { "type": "string" }
+  }
+}

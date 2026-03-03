@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_google_cloud_videos_section",
+    "info": {
+        "displayName": "Videos",
+        "icon": "film",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "text"
+        },
+        "videoCards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "google-cloud.video-card"
+        }
+    }
+}

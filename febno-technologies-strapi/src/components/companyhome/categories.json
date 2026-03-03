@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_companyhome_categories",
+  "info": {
+    "displayName": "categories"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "component": "division.list",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

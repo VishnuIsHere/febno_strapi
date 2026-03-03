@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_managed_security_feature_cards",
+    "info": {
+        "displayName": "Feature Card",
+        "description": "Security feature card"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text",
+            "required": true
+        },
+        "iconName": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

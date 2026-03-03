@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "odoo_pages",
+  "info": {
+    "singularName": "odoo-page",
+    "pluralName": "odoo-pages",
+    "displayName": "Odoo Page",
+    "description": "Content for the Odoo ERP page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "odoo.hero"
+    },
+    "transformation_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "odoo.transformation"
+    },
+    "solutions_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "odoo.solutions"
+    },
+    "why_choose_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading.heading1"
+    },
+    "global_footprint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "company-career.company-stats"
+    },
+    "integration_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "odoo.integration"
+    },
+    "testimonials_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "odoo.review-list"
+    },
+    "industry_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "odoo.industry-section"
+    },
+    "faq_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "odoo.faq-section"
+    }
+  }
+}

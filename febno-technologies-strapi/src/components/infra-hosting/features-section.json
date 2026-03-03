@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_infra_hosting_features_sections",
+    "info": {
+        "displayName": "Features Section",
+        "description": "Section for features and benefits",
+        "icon": "list"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "features": {
+            "type": "component",
+            "repeatable": true,
+            "component": "infra-hosting.feature-card"
+        }
+    }
+}

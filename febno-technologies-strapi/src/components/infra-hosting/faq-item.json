@@ -1,0 +1,17 @@
+{
+    "collectionName": "components_infra_hosting_faq_items",
+    "info": {
+        "displayName": "FAQ Item",
+        "description": "Frequently asked question item",
+        "icon": "help-circle"
+    },
+    "options": {},
+    "attributes": {
+        "question": {
+            "type": "string"
+        },
+        "answer": {
+            "type": "text"
+        }
+    }
+}

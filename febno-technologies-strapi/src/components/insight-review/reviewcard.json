@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_insight_review_reviewcards",
+  "info": {
+    "displayName": "reviewcard"
+  },
+  "options": {},
+  "attributes": {
+    "reviewcontent": {
+      "type": "text"
+    },
+    "reviewerdetails": {
+      "type": "component",
+      "component": "heading.heading1",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

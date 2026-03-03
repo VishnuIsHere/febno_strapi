@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_companyhome_texts",
+  "info": {
+    "displayName": "text"
+  },
+  "options": {},
+  "attributes": {
+    "ans": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_erp_tally_icon_simples",
+  "info": {
+    "displayName": "Tally Icon Simple",
+    "description": "Simple icon wrapper"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    }
+  }
+}

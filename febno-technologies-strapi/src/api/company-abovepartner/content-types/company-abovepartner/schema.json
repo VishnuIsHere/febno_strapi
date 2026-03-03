@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "company_abovepartners",
+  "info": {
+    "singularName": "company-abovepartner",
+    "pluralName": "company-abovepartners",
+    "displayName": "Company_abovepartner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "boxes": {
+      "type": "component",
+      "component": "companyhome.content",
+      "repeatable": true
+    },
+    "backgroundimage": {
+      "type": "component",
+      "component": "background-img.backgroundimage",
+      "repeatable": true
+    }
+  }
+}

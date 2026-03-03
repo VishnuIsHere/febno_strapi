@@ -1,0 +1,24 @@
+{
+    "collectionName": "components_managed_security_case_study_cards",
+    "info": {
+        "displayName": "Case Study Card",
+        "description": "Case study card for managed security"
+    },
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text",
+            "required": true
+        },
+        "iconName": {
+            "type": "string",
+            "default": "shield"
+        }
+    }
+}

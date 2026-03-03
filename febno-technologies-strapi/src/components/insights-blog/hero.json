@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_insights_blog_heroes",
+  "info": {
+    "displayName": "Hero",
+    "description": "Insights Blog Page Hero section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "primaryBtn": {
+      "type": "string"
+    },
+    "secondaryBtn": {
+      "type": "string"
+    },
+    "badgeIcon": {
+      "type": "string"
+    },
+    "badgeTitle": {
+      "type": "string"
+    },
+    "badgeText": {
+      "type": "text"
+    }
+  }
+}

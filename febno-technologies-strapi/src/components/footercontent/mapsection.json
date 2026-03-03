@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_footercontent_mapsections",
+  "info": {
+    "displayName": "mapsection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "mapdata": {
+      "type": "component",
+      "component": "footercontent.data",
+      "repeatable": true
+    },
+    "mapicon": {
+      "type": "component",
+      "component": "footercontent.mapicon",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

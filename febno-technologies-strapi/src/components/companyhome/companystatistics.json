@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_companyhome_companystatistics",
+  "info": {
+    "displayName": "companystatistics"
+  },
+  "options": {},
+  "attributes": {
+    "statistics": {
+      "type": "component",
+      "component": "heading.heading1",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

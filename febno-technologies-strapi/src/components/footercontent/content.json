@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_footercontent_contents",
+  "info": {
+    "displayName": "content",
+    "icon": "clock"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

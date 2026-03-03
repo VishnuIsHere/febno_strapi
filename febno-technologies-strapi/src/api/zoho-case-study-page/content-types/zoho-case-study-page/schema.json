@@ -1,0 +1,32 @@
+{
+    "kind": "singleType",
+    "collectionName": "zoho_case_study_pages",
+    "info": {
+        "singularName": "zoho-case-study-page",
+        "pluralName": "zoho-case-study-pages",
+        "displayName": "Zoho Case Study Page",
+        "description": "Dynamic content for Zoho Case Study Page"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "hero_section": {
+            "type": "component",
+            "repeatable": false,
+            "component": "zoho-app.hero"
+        },
+        "case_studies_section_heading": {
+            "type": "string"
+        },
+        "case_studies_section_description": {
+            "type": "text"
+        },
+        "case_studies": {
+            "type": "component",
+            "repeatable": true,
+            "component": "zoho-app.case-study-item"
+        }
+    }
+}

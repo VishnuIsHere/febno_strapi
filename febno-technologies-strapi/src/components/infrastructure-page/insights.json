@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_infrastructure_page_insights",
+    "info": {
+        "displayName": "Insights",
+        "description": "Insights/blog section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "subtitle": {
+            "type": "text"
+        },
+        "insightCards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.insight-card"
+        }
+    }
+}

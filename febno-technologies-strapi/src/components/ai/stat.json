@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ai_stats_items",
+  "info": {
+    "displayName": "stat",
+    "description": "Single Statistic Item"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

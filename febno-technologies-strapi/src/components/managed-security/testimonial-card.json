@@ -1,0 +1,25 @@
+{
+    "collectionName": "components_managed_security_testimonial_cards",
+    "info": {
+        "displayName": "Testimonial Card",
+        "description": "Client testimonial card"
+    },
+    "attributes": {
+        "text": {
+            "type": "text",
+            "required": true
+        },
+        "firstName": {
+            "type": "string",
+            "required": true
+        },
+        "lastName": {
+            "type": "string",
+            "required": true
+        },
+        "role": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

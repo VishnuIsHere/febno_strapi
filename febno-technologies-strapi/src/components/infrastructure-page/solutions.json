@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_infrastructure_page_solutions",
+    "info": {
+        "displayName": "Solutions",
+        "description": "Solutions section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "subtitle": {
+            "type": "text"
+        },
+        "solutionCards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.service-card"
+        }
+    }
+}

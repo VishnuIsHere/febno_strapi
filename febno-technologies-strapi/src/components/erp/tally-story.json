@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_erp_tally_stories",
+  "info": {
+    "displayName": "Tally Story",
+    "description": "Success story card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "readMoreLink": {
+      "type": "string"
+    }
+  }
+}

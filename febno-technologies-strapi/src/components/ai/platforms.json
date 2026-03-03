@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ai_platforms",
+  "info": {
+    "displayName": "platforms",
+    "description": "AI Platforms Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "platforms": {
+      "type": "component",
+      "repeatable": true,
+      "component": "erp.platform"
+    }
+  }
+}

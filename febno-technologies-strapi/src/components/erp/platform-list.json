@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_erp_platform_lists",
+  "info": {
+    "displayName": "platform-list",
+    "description": "List of ERP platforms"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "platforms": {
+      "type": "component",
+      "repeatable": true,
+      "component": "erp.platform"
+    }
+  }
+}

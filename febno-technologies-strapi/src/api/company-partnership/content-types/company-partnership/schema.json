@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "company_partnerships",
+  "info": {
+    "singularName": "company-partnership",
+    "pluralName": "company-partnerships",
+    "displayName": "Company_partnership"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "partnership_titles": {
+      "type": "component",
+      "component": "heading.heading1",
+      "repeatable": false
+    },
+    "images": {
+      "type": "component",
+      "component": "companyhome.images",
+      "repeatable": true
+    }
+  }
+}

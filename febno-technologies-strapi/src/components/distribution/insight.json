@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_distribution_insights",
+  "info": {
+    "displayName": "Insight",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category": { "type": "string" },
+    "title": { "type": "string" },
+    "excerpt": { "type": "text" },
+    "date": { "type": "string" }
+  }
+}

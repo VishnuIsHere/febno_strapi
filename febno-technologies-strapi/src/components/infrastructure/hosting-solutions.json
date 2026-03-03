@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_infrastructure_hosting_solutions",
+  "info": {
+    "displayName": "hosting-solutions",
+    "description": "Hosting Solutions Grid"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "awspage.feature-card"
+    }
+  }
+}

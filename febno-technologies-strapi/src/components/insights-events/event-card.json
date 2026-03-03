@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_insights_events_event_cards",
+  "info": {
+    "displayName": "Event Card",
+    "description": "A single event item for the Latest Events section"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "month": {
+      "type": "string",
+      "default": "DEC"
+    },
+    "dateNumber": {
+      "type": "integer"
+    },
+    "timestart": {
+      "type": "string"
+    },
+    "timeend": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

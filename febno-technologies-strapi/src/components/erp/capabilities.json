@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_erp_capabilities",
+  "info": {
+    "displayName": "capabilities",
+    "description": "Service capabilities section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Key Service Capabilities"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "awspage.feature-card"
+    },
+    "timelineText": {
+      "type": "text"
+    },
+    "supportText": {
+      "type": "text"
+    }
+  }
+}

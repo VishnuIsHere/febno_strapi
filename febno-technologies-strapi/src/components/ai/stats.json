@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ai_stats",
+  "info": {
+    "displayName": "stats",
+    "description": "AI Stats Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ai.stat"
+    }
+  }
+}

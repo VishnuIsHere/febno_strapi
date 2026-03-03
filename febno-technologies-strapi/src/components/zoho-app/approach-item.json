@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_zoho_app_approach_items",
+    "info": {
+        "displayName": "approach-item",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        }
+    }
+}

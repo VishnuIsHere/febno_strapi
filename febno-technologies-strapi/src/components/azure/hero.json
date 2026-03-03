@@ -1,0 +1,30 @@
+{
+    "collectionName": "components_azure_heroes",
+    "info": {
+        "displayName": "Hero",
+        "description": "Azure Hero section"
+    },
+    "options": {},
+    "attributes": {
+        "maintitle": {
+            "type": "text"
+        },
+        "introText": {
+            "type": "text"
+        },
+        "description": {
+            "type": "text"
+        },
+        "primaryCTA": {
+            "type": "string"
+        },
+        "secondaryCTA": {
+            "type": "string"
+        },
+        "features": {
+            "type": "component",
+            "repeatable": true,
+            "component": "azure.feature"
+        }
+    }
+}

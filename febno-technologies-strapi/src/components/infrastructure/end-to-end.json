@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_infrastructure_end_to_ends",
+  "info": {
+    "displayName": "end-to-end",
+    "description": "End to End Solutions Grid"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "awspage.feature-card"
+    }
+  }
+}

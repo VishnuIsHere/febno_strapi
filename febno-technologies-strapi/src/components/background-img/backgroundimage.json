@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_background_img_backgroundimages",
+  "info": {
+    "displayName": "backgroundimage"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

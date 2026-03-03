@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_globalsourcing_talent_cards",
+  "info": {
+    "displayName": "Talent Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category": { "type": "string" },
+    "role": { "type": "string" },
+    "available": { "type": "string" },
+    "skills": { "type": "text" },
+    "levels": { "type": "text" }
+  }
+}

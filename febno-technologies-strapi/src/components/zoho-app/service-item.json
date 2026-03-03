@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_zoho_app_service_items",
+    "info": {
+        "displayName": "service-item",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "icon": {
+            "type": "string"
+        },
+        "desc": {
+            "type": "text"
+        },
+        "items": {
+            "type": "json"
+        }
+    }
+}

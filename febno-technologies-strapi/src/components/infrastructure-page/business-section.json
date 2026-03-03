@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_infrastructure_page_business_sections",
+    "info": {
+        "displayName": "Business Section",
+        "description": "Business value proposition section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "subtitle": {
+            "type": "text"
+        },
+        "cards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.feature-card"
+        }
+    }
+}

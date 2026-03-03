@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_azure_video_sections",
+    "info": {
+        "displayName": "Video Section",
+        "description": "Azure video section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "videos": {
+            "type": "component",
+            "repeatable": true,
+            "component": "azure.video"
+        }
+    }
+}

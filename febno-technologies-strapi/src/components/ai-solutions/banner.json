@@ -1,0 +1,20 @@
+{
+    "collectionName": "components_ai_solutions_banners",
+    "info": {
+        "displayName": "Banner",
+        "description": "Banner section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        }
+    }
+}

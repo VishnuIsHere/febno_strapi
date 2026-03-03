@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_infrastructure_benefit_cards",
+  "info": {
+    "displayName": "Benefit Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

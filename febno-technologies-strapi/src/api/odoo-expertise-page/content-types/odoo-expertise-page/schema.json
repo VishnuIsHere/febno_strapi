@@ -1,0 +1,35 @@
+{
+    "kind": "singleType",
+    "collectionName": "odoo_expertise_pages",
+    "info": {
+        "singularName": "odoo-expertise-page",
+        "pluralName": "odoo-expertise-pages",
+        "displayName": "Odoo Expertise Page",
+        "description": "Dynamic content for Odoo Expertise Page"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "hero_section": {
+            "type": "component",
+            "repeatable": false,
+            "component": "zoho-app.hero"
+        },
+        "expertise_section_heading": {
+            "type": "string"
+        },
+        "expertise_section_subtitle": {
+            "type": "string"
+        },
+        "expertise_section_description": {
+            "type": "text"
+        },
+        "services": {
+            "type": "component",
+            "repeatable": true,
+            "component": "zoho-app.app-item"
+        }
+    }
+}

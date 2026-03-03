@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_button_items_buttonitems",
+  "info": {
+    "displayName": "Buttonitems"
+  },
+  "options": {},
+  "attributes": {
+    "buttonimage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "buttontext": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

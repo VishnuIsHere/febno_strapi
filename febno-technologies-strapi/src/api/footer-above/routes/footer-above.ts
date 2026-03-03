@@ -1,0 +1,7 @@
+/**
+ * footer-above router
+ */
+
+import { factories } from '@strapi/strapi';
+
+export default factories.createCoreRouter('api::footer-above.footer-above');

@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "company_divisions",
+  "info": {
+    "singularName": "company-division",
+    "pluralName": "company-divisions",
+    "displayName": "Company_division"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titles": {
+      "type": "component",
+      "component": "heading.heading1",
+      "repeatable": false
+    },
+    "description": {
+      "type": "component",
+      "component": "companyhome.descriptions",
+      "repeatable": true
+    }
+  }
+}

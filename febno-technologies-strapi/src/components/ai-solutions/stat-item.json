@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_ai_solutions_stat_items",
+    "info": {
+        "displayName": "Stat Item",
+        "description": "Statistic item for Stats section"
+    },
+    "options": {},
+    "attributes": {
+        "value": {
+            "type": "string",
+            "required": true,
+            "default": "0"
+        },
+        "label": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

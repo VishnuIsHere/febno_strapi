@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_button_items_link_buttons",
+  "info": {
+    "displayName": "Link-Button"
+  },
+  "options": {},
+  "attributes": {
+    "URl": {
+      "type": "string"
+    },
+    "linkicon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

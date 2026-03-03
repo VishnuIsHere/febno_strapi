@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_ai_solutions_case_studies",
+  "info": {
+    "displayName": "Case Studies",
+    "description": "Case studies section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "caseStudyCard": {
+      "type": "component",
+      "component": "cards.cards",
+      "repeatable": true
+    }
+  }
+}

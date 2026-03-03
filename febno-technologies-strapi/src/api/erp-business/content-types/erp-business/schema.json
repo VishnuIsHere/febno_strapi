@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "erp_businesses",
+  "info": {
+    "singularName": "erp-business",
+    "pluralName": "erp-businesses",
+    "displayName": "ERP & Business Applications",
+    "description": "Content for the ERP & Business Applications Division Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "erp.hero"
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "erp.about"
+    },
+    "serviceCapabilities": {
+      "type": "component",
+      "repeatable": false,
+      "component": "erp.capabilities"
+    },
+    "knowledgeHub": {
+      "type": "component",
+      "repeatable": false,
+      "component": "erp.knowledge-hub"
+    },
+    "integration": {
+      "type": "component",
+      "repeatable": false,
+      "component": "erp.integration-section"
+    },
+    "implementations": {
+      "type": "component",
+      "repeatable": false,
+      "component": "erp.platform-list"
+    },
+    "successStories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "erp.success-story"
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "erp.testimonial"
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "erp.faq"
+    }
+  }
+}

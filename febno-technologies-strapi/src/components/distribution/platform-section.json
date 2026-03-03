@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_distribution_platform_sections",
+  "info": {
+    "displayName": "Platform Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "description": { "type": "text" },
+    "platforms": {
+      "type": "component",
+      "repeatable": true,
+      "component": "distribution.platform"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_infra_hosting_case_study_cards",
+  "info": {
+    "displayName": "Case Study Card",
+    "description": "Card for case study",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "readMoreUrl": {
+      "type": "string"
+    }
+  }
+}

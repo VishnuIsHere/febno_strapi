@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_erp_tally_questions",
+    "info": {
+        "displayName": "Tally Question",
+        "description": "FAQ question item"
+    },
+    "options": {},
+    "attributes": {
+        "question": {
+            "type": "string"
+        },
+        "answer": {
+            "type": "text"
+        }
+    }
+}

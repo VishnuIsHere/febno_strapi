@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_odoo_cards",
+  "info": {
+    "displayName": "Card",
+    "description": "Simple card for Solutions section"
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "icon": { "type": "string" }
+  }
+}

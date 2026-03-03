@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_footercontent_footerdata",
+  "info": {
+    "displayName": "footerdata"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "component",
+      "component": "subitems.subitem",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

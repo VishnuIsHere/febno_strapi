@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_insight_gallery_imagecards",
+  "info": {
+    "displayName": "imagecard"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "component": "images.image",
+      "repeatable": false
+    },
+    "category": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

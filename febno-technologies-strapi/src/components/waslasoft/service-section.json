@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_waslasoft_service_sections",
+  "info": {
+    "displayName": "Service Section",
+    "description": "Waslasoft Services List"
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "description": { "type": "text" },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "waslasoft.service"
+    }
+  }
+}

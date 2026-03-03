@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_productivity_faq_sections",
+    "info": {
+        "displayName": "faq-section",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "heading": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "items": {
+            "type": "component",
+            "component": "productivity.faq",
+            "repeatable": true
+        }
+    }
+}

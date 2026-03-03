@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_erp_knowledge_hubs",
+  "info": {
+    "displayName": "knowledge-hub",
+    "description": "Knowledge hub section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "videoUrl": {
+      "type": "string",
+      "description": "YouTube video URL (e.g., https://www.youtube.com/watch?v=VIDEO_ID)"
+    },
+    "thumbnailUrl": {
+      "type": "string",
+      "description": "Optional custom thumbnail URL"
+    },
+    "videoTitle": {
+      "type": "string"
+    },
+    "videoDescription": {
+      "type": "text"
+    },
+    "ctaText": {
+      "type": "string"
+    }
+  }
+}

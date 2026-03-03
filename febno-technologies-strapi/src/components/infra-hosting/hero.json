@@ -1,0 +1,34 @@
+{
+    "collectionName": "components_infra_hosting_heroes",
+    "info": {
+        "displayName": "Hero",
+        "description": "Hero section for Infrastructure & Hosting",
+        "icon": "layout"
+    },
+    "options": {},
+    "attributes": {
+        "maintitle": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "introText": {
+            "type": "text"
+        },
+        "description": {
+            "type": "text"
+        },
+        "primaryCTA": {
+            "type": "string"
+        },
+        "secondaryCTA": {
+            "type": "string"
+        },
+        "features": {
+            "type": "component",
+            "repeatable": true,
+            "component": "infra-hosting.hero-feature"
+        }
+    }
+}

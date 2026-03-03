@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_globalsourcing_service_lists",
+  "info": {
+    "displayName": "Service List",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "maintitle": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "services": {
+      "type": "component",
+      "component": "globalsourcing.service-item",
+      "repeatable": true
+    }
+  }
+}

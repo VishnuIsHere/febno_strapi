@@ -1,0 +1,26 @@
+{
+    "collectionName": "components_shared_insight_cards",
+    "info": {
+        "displayName": "Insight Card",
+        "description": "Reusable insight/blog card"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "category": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "date": {
+            "type": "string"
+        },
+        "iconName": {
+            "type": "string"
+        }
+    }
+}

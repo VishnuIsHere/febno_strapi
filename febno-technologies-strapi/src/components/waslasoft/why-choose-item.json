@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_waslasoft_why_choose_items",
+  "info": {
+    "displayName": "Why Choose Item",
+    "description": "Waslasoft Benefit"
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "desc": { "type": "text" },
+    "icon": { "type": "string" }
+  }
+}

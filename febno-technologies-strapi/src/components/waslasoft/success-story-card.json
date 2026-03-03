@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_waslasoft_success_story_cards",
+  "info": {
+    "displayName": "Success Story Card",
+    "description": "Card for Waslasoft Success Stories"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon_name": {
+      "type": "string",
+      "default": "Store"
+    }
+  }
+}

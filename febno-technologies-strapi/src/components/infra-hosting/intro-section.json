@@ -1,0 +1,37 @@
+{
+    "collectionName": "components_infra_hosting_intro_sections",
+    "info": {
+        "displayName": "Intro Section",
+        "description": "Introduction section with visualization card",
+        "icon": "info"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "text"
+        },
+        "contentLeft": {
+            "type": "blocks"
+        },
+        "visualizationTitle": {
+            "type": "string"
+        },
+        "visualizationDescription": {
+            "type": "text"
+        },
+        "visualizationChecklist": {
+            "type": "text"
+        },
+        "visualizationIcon": {
+            "type": "string"
+        },
+        "stats": {
+            "type": "component",
+            "repeatable": true,
+            "component": "infra-hosting.stat-item"
+        }
+    }
+}

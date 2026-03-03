@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "company_careers",
+  "info": {
+    "singularName": "company-career",
+    "pluralName": "company-careers",
+    "displayName": "Company-career"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "career_hero": {
+      "type": "component",
+      "component": "companyhome.company",
+      "repeatable": false
+    },
+    "febno_section": {
+      "type": "component",
+      "component": "company-career.febno-section",
+      "repeatable": false
+    },
+    "openings_section": {
+      "type": "component",
+      "component": "company-career.febno-section",
+      "repeatable": false
+    },
+    "companystats": {
+      "type": "component",
+      "component": "company-career.company-stats",
+      "repeatable": false
+    },
+    "resume_section": {
+      "type": "component",
+      "component": "company-career.resume-section",
+      "repeatable": false
+    }
+  }
+}

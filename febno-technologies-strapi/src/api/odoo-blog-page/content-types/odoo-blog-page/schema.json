@@ -1,0 +1,37 @@
+{
+    "kind": "singleType",
+    "collectionName": "odoo_blog_pages",
+    "info": {
+        "singularName": "odoo-blog-page",
+        "pluralName": "odoo-blog-pages",
+        "displayName": "Odoo Blog Page",
+        "description": "Dynamic content for Odoo Blog Page"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "hero_section": {
+            "type": "component",
+            "repeatable": false,
+            "component": "zoho-app.hero"
+        },
+        "blog_section_heading": {
+            "type": "string"
+        },
+        "blog_section_description": {
+            "type": "text"
+        },
+        "articles": {
+            "type": "component",
+            "repeatable": true,
+            "component": "zoho-app.blog-article"
+        },
+        "subscription_section": {
+            "type": "component",
+            "repeatable": false,
+            "component": "zoho-app.subscription"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_azure_globalfootprints",
+  "info": {
+    "displayName": "Globalfootprint"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "rightcardtitle": {
+      "type": "string"
+    },
+    "cardIcons": {
+      "type": "component",
+      "component": "erp.tally-icon-simple",
+      "repeatable": true
+    },
+    "stats": {
+      "type": "component",
+      "component": "erp.tally-stat",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

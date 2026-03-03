@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_distribution_ecosystem_properties",
+  "info": {
+    "displayName": "Ecosystem Properties",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "description": { "type": "text" },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "distribution.property-item"
+    }
+  }
+}

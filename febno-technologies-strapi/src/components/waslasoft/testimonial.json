@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_waslasoft_testimonials",
+  "info": {
+    "displayName": "Testimonial",
+    "description": "Waslasoft Testimonials"
+  },
+  "options": {},
+  "attributes": {
+    "name": { "type": "string" },
+    "role": { "type": "string" },
+    "content": { "type": "text" }
+  }
+}

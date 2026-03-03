@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ai_solutions_grids",
+  "info": {
+    "displayName": "Grid",
+    "description": "Grid of feature cards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "component": "zoho.feature",
+      "repeatable": true
+    }
+  }
+}

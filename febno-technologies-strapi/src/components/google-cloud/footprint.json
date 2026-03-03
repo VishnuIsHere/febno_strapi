@@ -1,0 +1,28 @@
+{
+    "collectionName": "components_google_cloud_footprints",
+    "info": {
+        "displayName": "Footprint",
+        "icon": "globe",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "text"
+        },
+        "stats": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.stat-card"
+        },
+        "aiCardTitle": {
+            "type": "string"
+        },
+        "aiCardDescription": {
+            "type": "text"
+        }
+    }
+}

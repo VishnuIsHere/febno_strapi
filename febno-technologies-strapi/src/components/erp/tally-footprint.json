@@ -1,0 +1,38 @@
+{
+    "collectionName": "components_erp_tally_footprints",
+    "info": {
+        "displayName": "Tally Footprint",
+        "description": "Global footprint metrics section"
+    },
+    "options": {},
+    "attributes": {
+        "empowerTitle": {
+            "type": "string"
+        },
+        "empowerDesc": {
+            "type": "text"
+        },
+        "footprintTitle": {
+            "type": "string"
+        },
+        "footprintSubtitle": {
+            "type": "string"
+        },
+        "cardMainText": {
+            "type": "string"
+        },
+        "cardSubText": {
+            "type": "string"
+        },
+        "cardIcons": {
+            "type": "component",
+            "repeatable": true,
+            "component": "erp.tally-icon-simple"
+        },
+        "stats": {
+            "type": "component",
+            "repeatable": true,
+            "component": "erp.tally-stat"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_waslasoft_services",
+  "info": {
+    "displayName": "Service",
+    "description": "Waslasoft Service Item"
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "desc": { "type": "text" },
+    "icon": { "type": "string" }
+  }
+}

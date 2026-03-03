@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_shared_stat_cards",
+    "info": {
+        "displayName": "Stat Card",
+        "description": "Reusable stat/metric card"
+    },
+    "options": {},
+    "attributes": {
+        "iconName": {
+            "type": "string"
+        },
+        "value": {
+            "type": "string",
+            "required": true
+        },
+        "label": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_quickbooks_service_cards",
+    "info": {
+        "displayName": "Service Card",
+        "description": "QuickBooks service offering card"
+    },
+    "options": {},
+    "attributes": {
+        "iconName": {
+            "type": "string",
+            "required": true
+        },
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text",
+            "required": true
+        }
+    }
+}

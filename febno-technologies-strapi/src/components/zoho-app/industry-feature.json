@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_zoho_app_industry_features",
+    "info": {
+        "displayName": "industry-feature",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "desc": {
+            "type": "text"
+        },
+        "icon": {
+            "type": "string"
+        }
+    }
+}

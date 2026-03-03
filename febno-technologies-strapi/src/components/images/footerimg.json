@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_images_footerimgs",
+  "info": {
+    "displayName": "footerimg"
+  },
+  "options": {},
+  "attributes": {
+    "footericn": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "url": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

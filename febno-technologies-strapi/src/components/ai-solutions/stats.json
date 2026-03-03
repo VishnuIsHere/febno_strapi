@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_ai_solutions_stats",
+    "info": {
+        "displayName": "Stats",
+        "description": "Statistics section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "items": {
+            "type": "component",
+            "repeatable": true,
+            "component": "ai-solutions.stat-item"
+        }
+    }
+}

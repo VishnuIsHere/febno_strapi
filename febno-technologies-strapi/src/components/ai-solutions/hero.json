@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_ai_solutions_heroes",
+  "info": {
+    "displayName": "Hero",
+    "description": "Hero section with title, subtitle, cards and actions"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "cards": {
+      "type": "component",
+      "component": "shared.feature-card",
+      "repeatable": true
+    }
+  }
+}

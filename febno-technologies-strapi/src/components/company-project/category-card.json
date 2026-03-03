@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_company_project_category_cards",
+  "info": {
+    "displayName": "category_card"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "component": "images.image",
+      "repeatable": false
+    },
+    "heading": {
+      "type": "component",
+      "component": "heading.heading1",
+      "repeatable": false
+    },
+    "button": {
+      "type": "component",
+      "component": "button-items.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

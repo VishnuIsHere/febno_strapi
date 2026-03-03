@@ -1,0 +1,60 @@
+{
+  "kind": "singleType",
+  "collectionName": "zohos",
+  "info": {
+    "singularName": "zoho",
+    "pluralName": "zohos",
+    "displayName": "Zoho"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_section": {
+      "type": "component",
+      "component": "zoho.hero",
+      "repeatable": false
+    },
+    "integration_section": {
+      "type": "component",
+      "component": "heading.heading1",
+      "repeatable": false
+    },
+    "why_choose_section": {
+      "type": "component",
+      "component": "heading.heading1",
+      "repeatable": false
+    },
+    "solutions_list": {
+      "type": "component",
+      "component": "division.divisioncategory",
+      "repeatable": true
+    },
+    "global_footprint": {
+      "type": "component",
+      "component": "company-career.company-stats",
+      "repeatable": false
+    },
+    "transforming_workflows": {
+      "type": "component",
+      "component": "company-career.febno-cards",
+      "repeatable": true
+    },
+    "testimonials_section": {
+      "type": "component",
+      "component": "companyhome.client-review",
+      "repeatable": false
+    },
+    "industry_solutions": {
+      "type": "component",
+      "component": "companyhome.industry",
+      "repeatable": false
+    },
+    "faq_section": {
+      "type": "component",
+      "component": "companyhome.qna",
+      "repeatable": true
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_waslasoft_faq_items",
+  "info": {
+    "displayName": "FAQ Item",
+    "description": "Waslasoft FAQ"
+  },
+  "options": {},
+  "attributes": {
+    "question": { "type": "string" },
+    "answer": { "type": "text" }
+  }
+}

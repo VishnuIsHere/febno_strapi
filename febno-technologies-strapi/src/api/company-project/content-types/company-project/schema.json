@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "company_projects",
+  "info": {
+    "singularName": "company-project",
+    "pluralName": "company-projects",
+    "displayName": "Company-project"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "projecthero": {
+      "type": "component",
+      "component": "companyhome.company",
+      "repeatable": false
+    },
+    "project_category": {
+      "type": "component",
+      "component": "company-project.project-category",
+      "repeatable": false
+    }
+  }
+}

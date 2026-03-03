@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_infrastructure_page_trusted_sections",
+    "info": {
+        "displayName": "Trusted Section",
+        "description": "Trusted partners and stats section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "subtitle": {
+            "type": "text"
+        },
+        "stats": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.stat-card"
+        }
+    }
+}

@@ -1,0 +1,173 @@
+{
+    "kind": "singleType",
+    "collectionName": "managed_securities",
+    "info": {
+        "singularName": "managed-security",
+        "pluralName": "managed-securities",
+        "displayName": "Managed Security",
+        "description": "Cloud Managed Security page content"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "heroTitle": {
+            "type": "string",
+            "default": "Cloud Managed Security"
+        },
+        "heroSubtitle": {
+            "type": "string"
+        },
+        "heroIntroText": {
+            "type": "text"
+        },
+        "heroDescription": {
+            "type": "text"
+        },
+        "heroPrimaryCTA": {
+            "type": "string"
+        },
+        "heroSecondaryCTA": {
+            "type": "string"
+        },
+        "heroFeatures": {
+            "type": "component",
+            "repeatable": true,
+            "component": "managed-security.hero-feature"
+        },
+        "navigationLogo": {
+            "type": "string",
+            "default": "Cloud Managed Security"
+        },
+        "navigationItems": {
+            "type": "component",
+            "repeatable": true,
+            "component": "managed-security.navigation-item"
+        },
+        "navigationCTALabel": {
+            "type": "string",
+            "default": "Request for Demo"
+        },
+        "navigationCTAPath": {
+            "type": "string",
+            "default": "/demo"
+        },
+        "aboutTitle": {
+            "type": "string"
+        },
+        "aboutSubtitle": {
+            "type": "text"
+        },
+        "aboutParagraph1": {
+            "type": "text"
+        },
+        "aboutParagraph2": {
+            "type": "text"
+        },
+        "aboutCardTitle": {
+            "type": "string"
+        },
+        "aboutCardDescription": {
+            "type": "text"
+        },
+        "aboutCardFeatures": {
+            "type": "json",
+            "default": [
+                "Zero Trust Architecture",
+                "Identity Protection",
+                "Compliance Management"
+            ]
+        },
+        "statCards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "managed-security.stat-card"
+        },
+        "solutionsTitle": {
+            "type": "string"
+        },
+        "solutionsSubtitle": {
+            "type": "text"
+        },
+        "solutionCards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "managed-security.solution-card"
+        },
+        "featuresTitle": {
+            "type": "string"
+        },
+        "featuresSubtitle": {
+            "type": "text"
+        },
+        "featureCards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "managed-security.feature-card"
+        },
+        "faqTitle": {
+            "type": "string"
+        },
+        "faqSubtitle": {
+            "type": "text"
+        },
+        "faqItems": {
+            "type": "component",
+            "repeatable": true,
+            "component": "managed-security.faq-item"
+        },
+        "caseStudiesTitle": {
+            "type": "string"
+        },
+        "caseStudiesSubtitle": {
+            "type": "text"
+        },
+        "caseStudyCards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "managed-security.case-study-card"
+        },
+        "knowledgeTitle": {
+            "type": "string"
+        },
+        "knowledgeSubtitle": {
+            "type": "text"
+        },
+        "knowledgeContentTitle": {
+            "type": "string"
+        },
+        "knowledgeContentDescription": {
+            "type": "text"
+        },
+        "knowledgeButtonText": {
+            "type": "string"
+        },
+        "knowledgeVideoUrl": {
+            "type": "string",
+            "default": ""
+        },
+        "testimonialsTitle": {
+            "type": "string"
+        },
+        "testimonialsSubtitle": {
+            "type": "text"
+        },
+        "testimonialCards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "managed-security.testimonial-card"
+        },
+        "insightsTitle": {
+            "type": "string"
+        },
+        "insightsSubtitle": {
+            "type": "text"
+        },
+        "insightCards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "managed-security.insight-card"
+        }
+    }
+}

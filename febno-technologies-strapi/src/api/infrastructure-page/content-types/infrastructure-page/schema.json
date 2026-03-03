@@ -1,0 +1,66 @@
+{
+    "kind": "singleType",
+    "collectionName": "infrastructure_pages",
+    "info": {
+        "singularName": "infrastructure-page",
+        "pluralName": "infrastructure-pages",
+        "displayName": "Infrastructure Page",
+        "description": "Content for the Infrastructure main page"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "hero": {
+            "type": "component",
+            "repeatable": false,
+            "component": "infrastructure-page.hero"
+        },
+        "businessSection": {
+            "type": "component",
+            "repeatable": false,
+            "component": "infrastructure-page.business-section"
+        },
+        "services": {
+            "type": "component",
+            "repeatable": false,
+            "component": "infrastructure-page.services"
+        },
+        "trustedSection": {
+            "type": "component",
+            "repeatable": false,
+            "component": "infrastructure-page.trusted-section"
+        },
+        "monitoring": {
+            "type": "component",
+            "repeatable": false,
+            "component": "infrastructure-page.monitoring"
+        },
+        "solutions": {
+            "type": "component",
+            "repeatable": false,
+            "component": "infrastructure-page.solutions"
+        },
+        "caseStudies": {
+            "type": "component",
+            "repeatable": false,
+            "component": "infrastructure-page.case-studies"
+        },
+        "testimonials": {
+            "type": "component",
+            "repeatable": false,
+            "component": "infrastructure-page.testimonials"
+        },
+        "insights": {
+            "type": "component",
+            "repeatable": false,
+            "component": "infrastructure-page.insights"
+        },
+        "faq": {
+            "type": "component",
+            "repeatable": false,
+            "component": "infrastructure-page.faq"
+        }
+    }
+}

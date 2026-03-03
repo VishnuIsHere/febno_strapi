@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_infra_hosting_faq_sections",
+    "info": {
+        "displayName": "FAQ Section",
+        "description": "Section for frequently asked questions",
+        "icon": "question"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "faqs": {
+            "type": "component",
+            "repeatable": true,
+            "component": "infra-hosting.faq-item"
+        }
+    }
+}

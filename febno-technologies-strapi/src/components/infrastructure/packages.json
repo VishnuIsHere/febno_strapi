@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_infrastructure_packages_sections",
+  "info": {
+    "displayName": "packages",
+    "description": "Section containing multiple packages"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "infrastructure.package"
+    }
+  }
+}

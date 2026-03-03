@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "infrastructure_managed_services",
+  "info": {
+    "singularName": "infrastructure-managed-service",
+    "pluralName": "infrastructure-managed-services",
+    "displayName": "Infrastructure & Managed Services",
+    "description": "Content for the Infrastructure & Managed Services Division Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "infrastructure.hero"
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": false,
+      "component": "infrastructure.stats"
+    },
+    "endToEnd": {
+      "type": "component",
+      "repeatable": false,
+      "component": "infrastructure.end-to-end"
+    },
+    "hostingSolutions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "infrastructure.hosting-solutions"
+    },
+    "darkSolutions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "infrastructure.dark-solutions"
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "infrastructure.benefits"
+    },
+    "packages": {
+      "type": "component",
+      "repeatable": false,
+      "component": "infrastructure.packages"
+    },
+    "insights": {
+      "type": "component",
+      "repeatable": false,
+      "component": "infrastructure.insights"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "infrastructure.faq"
+    },
+    "ctaBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "infrastructure.cta-banner"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_footerdata_footerglobals",
+  "info": {
+    "displayName": "footerglobal"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "global_links": {
+      "type": "component",
+      "component": "numbers.numbers",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

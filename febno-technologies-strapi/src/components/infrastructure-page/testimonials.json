@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_infrastructure_page_testimonials",
+    "info": {
+        "displayName": "Testimonials",
+        "description": "Client testimonials section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "subtitle": {
+            "type": "text"
+        },
+        "testimonialCards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.testimonial"
+        }
+    }
+}

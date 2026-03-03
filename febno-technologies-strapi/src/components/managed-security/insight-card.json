@@ -1,0 +1,29 @@
+{
+    "collectionName": "components_managed_security_insight_cards",
+    "info": {
+        "displayName": "Insight Card",
+        "description": "Blog/insight card for security insights"
+    },
+    "attributes": {
+        "category": {
+            "type": "string",
+            "required": true
+        },
+        "date": {
+            "type": "string",
+            "required": true
+        },
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text",
+            "required": true
+        },
+        "iconName": {
+            "type": "string",
+            "default": "shield"
+        }
+    }
+}

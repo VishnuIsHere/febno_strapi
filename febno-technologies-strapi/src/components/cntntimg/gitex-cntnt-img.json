@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_cntntimg_gitex_cntnt_imgs",
+  "info": {
+    "displayName": "gitexCntntImg"
+  },
+  "options": {},
+  "attributes": {
+    "leftimg": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "date": {
+      "type": "date"
+    },
+    "mainhead": {
+      "type": "string"
+    },
+    "subHead": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

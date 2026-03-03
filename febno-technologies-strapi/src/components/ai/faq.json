@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ai_faqs",
+  "info": {
+    "displayName": "faq",
+    "description": "AI FAQ Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "erp.faq"
+    }
+  }
+}

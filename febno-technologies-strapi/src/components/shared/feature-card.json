@@ -1,0 +1,25 @@
+{
+    "collectionName": "components_shared_feature_cards",
+    "info": {
+        "displayName": "Feature Card",
+        "description": "Reusable feature card"
+    },
+    "options": {},
+    "attributes": {
+        "iconName": {
+            "type": "string",
+            "required": true
+        },
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text",
+            "required": true
+        },
+        "tags": {
+            "type": "json"
+        }
+    }
+}

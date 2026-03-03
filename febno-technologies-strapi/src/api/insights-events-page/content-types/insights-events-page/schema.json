@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "insights_events_pages",
+  "info": {
+    "singularName": "insights-events-page",
+    "pluralName": "insights-events-pages",
+    "displayName": "Insights Events Page",
+    "description": "Content for the Insights Events Page (View All Events)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "component": "insights-blog.hero"
+    },
+    "LatestEventsSection": {
+      "type": "component",
+      "component": "insights-events.latest-events-section"
+    }
+  }
+}

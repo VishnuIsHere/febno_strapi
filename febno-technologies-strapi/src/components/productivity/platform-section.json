@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_productivity_platform_sections",
+    "info": {
+        "displayName": "platform-section",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "heading": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "items": {
+            "type": "component",
+            "component": "productivity.platform",
+            "repeatable": true
+        }
+    }
+}

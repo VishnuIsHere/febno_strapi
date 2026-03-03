@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_quickbooks_hero_features",
+  "info": {
+    "displayName": "Hero Feature",
+    "description": "QuickBooks hero section feature card"
+  },
+  "options": {},
+  "attributes": {
+    "iconName": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

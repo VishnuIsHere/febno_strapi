@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_insight_video_video_cards",
+  "info": {
+    "displayName": "video-card"
+  },
+  "options": {},
+  "attributes": {
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "url": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_waslasoft_faq_sections",
+  "info": {
+    "displayName": "FAQ Section",
+    "description": "Waslasoft FAQ List"
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "waslasoft.faq-item"
+    }
+  }
+}

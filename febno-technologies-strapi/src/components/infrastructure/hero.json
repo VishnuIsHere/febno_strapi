@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_infrastructure_heroes",
+  "info": {
+    "displayName": "hero",
+    "description": "Hero section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "introText": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "primaryCTA": {
+      "type": "string"
+    },
+    "secondaryCTA": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "awspage.feature-card"
+    }
+  }
+}

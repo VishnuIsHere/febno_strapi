@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_managed_security_hero_features",
+    "info": {
+        "displayName": "Hero Feature",
+        "description": "Feature item for hero section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text",
+            "required": true
+        },
+        "iconName": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "gitexhomes",
+  "info": {
+    "singularName": "gitexhome",
+    "pluralName": "gitexhomes",
+    "displayName": "Gitexhome"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "gitexheading": {
+      "type": "component",
+      "component": "heading.heading1",
+      "repeatable": true
+    },
+    "giteximg": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "insightshead": {
+      "type": "string"
+    },
+    "ContentImg": {
+      "type": "component",
+      "component": "cntntimg.gitex-cntnt-img",
+      "repeatable": true
+    }
+  }
+}

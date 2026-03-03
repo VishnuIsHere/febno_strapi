@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ai_benefits",
+  "info": {
+    "displayName": "benefits",
+    "description": "AI Benefits Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

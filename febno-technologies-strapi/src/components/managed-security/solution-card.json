@@ -1,0 +1,26 @@
+{
+    "collectionName": "components_managed_security_solution_cards",
+    "info": {
+        "displayName": "Solution Card",
+        "description": "Security solution card"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text",
+            "required": true
+        },
+        "iconName": {
+            "type": "string",
+            "required": true
+        },
+        "targetId": {
+            "type": "string",
+            "required": false
+        }
+    }
+}

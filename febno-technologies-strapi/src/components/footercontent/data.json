@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_footercontent_data",
+  "info": {
+    "displayName": "data"
+  },
+  "options": {},
+  "attributes": {
+    "mapdetails": {
+      "type": "component",
+      "component": "footercontent.mapdetails",
+      "repeatable": true
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

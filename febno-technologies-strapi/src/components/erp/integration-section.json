@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_erp_integration_sections",
+  "info": {
+    "displayName": "integration-section",
+    "description": "Integration benefits and capabilities"
+  },
+  "options": {},
+  "attributes": {
+    "benefitsTitle": {
+      "type": "string"
+    },
+    "benefitsDescription": {
+      "type": "text"
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "awspage.feature-card"
+    },
+    "capabilitiesTitle": {
+      "type": "string"
+    },
+    "capabilitiesDescription": {
+      "type": "text"
+    },
+    "capabilities": {
+      "type": "component",
+      "repeatable": true,
+      "component": "awspage.feature-card"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_ai_data_insights_blogs",
+    "info": {
+        "displayName": "Blog",
+        "description": "Blog/Insights section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "blogCards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.insight-card"
+        }
+    }
+}

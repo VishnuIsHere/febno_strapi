@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "companies",
+  "info": {
+    "singularName": "company",
+    "pluralName": "companies",
+    "displayName": "Company"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "companyhomepage": {
+      "type": "component",
+      "component": "companyhome.company",
+      "repeatable": false
+    }
+  }
+}

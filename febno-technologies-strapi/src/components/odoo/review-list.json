@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_odoo_review_lists",
+  "info": {
+    "displayName": "Review List",
+    "description": "Testimonials Section"
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "odoo.testimonial"
+    }
+  }
+}

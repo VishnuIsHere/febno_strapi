@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "waslasoft_pages",
+  "info": {
+    "singularName": "waslasoft-page",
+    "pluralName": "waslasoft-pages",
+    "displayName": "Waslasoft Page",
+    "description": "Content for Waslasoft ERP page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "waslasoft.hero"
+    },
+    "services_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "waslasoft.service-section"
+    },
+    "why_choose_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "waslasoft.why-choose-section"
+    },
+    "global_footprint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "waslasoft.footprint"
+    },
+    "integration_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "waslasoft.integration"
+    },
+    "testimonials_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "waslasoft.testimonial-section"
+    },
+    "faq_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "waslasoft.faq-section"
+    },
+    "success_stories_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "waslasoft.success-stories"
+    }
+  }
+}

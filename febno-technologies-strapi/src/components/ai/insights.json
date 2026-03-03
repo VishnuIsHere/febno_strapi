@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ai_insights",
+  "info": {
+    "displayName": "insights",
+    "description": "AI Insights Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "awspage.feature-card" 
+    }
+  }
+}

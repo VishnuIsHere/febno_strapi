@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_ai_data_insights_solutions",
+    "info": {
+        "displayName": "Solutions",
+        "description": "Solutions Grid"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "solutionCards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.feature-card"
+        }
+    }
+}

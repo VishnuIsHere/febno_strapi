@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_insights_events_latest_events_sections",
+  "info": {
+    "displayName": "Latest Events Section",
+    "description": "Section containing the latest events grid"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "insights-events.event-card"
+    }
+  }
+}

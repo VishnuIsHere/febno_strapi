@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_distribution_case_studies_v2",
+  "info": {
+    "displayName": "Case Studies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "distribution.case-study"
+    }
+  }
+}

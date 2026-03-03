@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "company_thirdpages",
+  "info": {
+    "singularName": "company-thirdpage",
+    "pluralName": "company-thirdpages",
+    "displayName": "Company_thirdpage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "thirdpage_contents": {
+      "type": "component",
+      "component": "heading.global-content",
+      "repeatable": true
+    }
+  }
+}

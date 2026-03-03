@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "aws_pages",
+  "info": {
+    "singularName": "aws-page",
+    "pluralName": "aws-pages",
+    "displayName": "AWS Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "awspage.hero",
+      "repeatable": false
+    },
+    "why_choose": {
+      "type": "component",
+      "component": "awspage.feature-grid",
+      "repeatable": false
+    },
+    "case_studies": {
+      "type": "component",
+      "component": "awspage.case-study-list",
+      "repeatable": false
+    },
+    "infrastructure": {
+      "type": "component",
+      "component": "awspage.infra-grid",
+      "repeatable": false
+    },
+    "videos": {
+      "type": "component",
+      "component": "awspage.video-list",
+      "repeatable": false
+    },
+    "footprint": {
+      "type": "component",
+      "component": "awspage.stat-grid",
+      "repeatable": false
+    },
+    "testimonials": {
+      "type": "component",
+      "component": "companyhome.client-review",
+      "repeatable": false
+    },
+    "faq": {
+      "type": "component",
+      "component": "companyhome.qna",
+      "repeatable": true
+    }
+  }
+}

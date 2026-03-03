@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_erp_tally_heroes",
+  "info": {
+    "displayName": "Tally Hero",
+    "description": "Main hero section for Tally page"
+  },
+  "options": {},
+  "attributes": {
+    "maintitle": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "introText": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "primaryCTA": {
+      "type": "string"
+    },
+    "secondaryCTA": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "component": "erp.tally-feature",
+      "repeatable": true
+    }
+  }
+}

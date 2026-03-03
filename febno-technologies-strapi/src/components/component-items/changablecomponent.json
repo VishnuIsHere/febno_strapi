@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_component_items_changablecomponents",
+  "info": {
+    "displayName": "changablecomponent"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imagehead": {
+      "type": "string"
+    },
+    "smalltext": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

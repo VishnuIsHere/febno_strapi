@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "partnership",
+  "info": {
+    "singularName": "partnership",
+    "pluralName": "partnerships",
+    "displayName": "Partnership"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "platforms": {
+      "type": "component",
+      "component": "heading.title",
+      "repeatable": false
+    },
+    "bottom_content": {
+      "type": "component",
+      "component": "component-items.bottomcontent",
+      "repeatable": true
+    }
+  }
+}

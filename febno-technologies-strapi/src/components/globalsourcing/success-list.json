@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_globalsourcing_success_lists",
+  "info": {
+    "displayName": "Success List",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "maintitle": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "stories": {
+      "type": "component",
+      "component": "globalsourcing.success-story",
+      "repeatable": true
+    }
+  }
+}

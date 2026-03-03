@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_waslasoft_app_items",
+  "info": {
+    "displayName": "App Item",
+    "description": "Waslasoft Integrated App"
+  },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string" },
+    "icon": { "type": "string" }
+  }
+}

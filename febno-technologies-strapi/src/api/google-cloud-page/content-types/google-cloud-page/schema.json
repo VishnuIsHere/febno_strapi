@@ -1,0 +1,48 @@
+{
+    "kind": "singleType",
+    "collectionName": "google_cloud_pages",
+    "info": {
+        "singularName": "google-cloud-page",
+        "pluralName": "google-cloud-pages",
+        "displayName": "Google Cloud Page",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "hero": {
+            "type": "component",
+            "component": "google-cloud.hero"
+        },
+        "services": {
+            "type": "component",
+            "component": "google-cloud.services"
+        },
+        "whyChoose": {
+            "type": "component",
+            "component": "google-cloud.why-choose"
+        },
+        "footprint": {
+            "type": "component",
+            "component": "google-cloud.footprint"
+        },
+        "videos": {
+            "type": "component",
+            "component": "google-cloud.videos"
+        },
+        "caseStudies": {
+            "type": "component",
+            "component": "infrastructure-page.case-studies"
+        },
+        "testimonials": {
+            "type": "component",
+            "component": "shared.testimonial-section"
+        },
+        "faq": {
+            "type": "component",
+            "component": "infrastructure-page.faq"
+        }
+    }
+}

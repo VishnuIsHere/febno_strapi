@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_odoo_testimonials",
+  "info": {
+    "displayName": "Testimonial",
+    "description": "Client Review"
+  },
+  "options": {},
+  "attributes": {
+    "name": { "type": "string" },
+    "role": { "type": "string" },
+    "content": { "type": "text" }
+  }
+}

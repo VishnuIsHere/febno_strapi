@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_quickbooks_stat_cards",
+    "info": {
+        "displayName": "Stat Card",
+        "description": "QuickBooks footprint statistic card"
+    },
+    "options": {},
+    "attributes": {
+        "iconName": {
+            "type": "string",
+            "required": true
+        },
+        "value": {
+            "type": "string",
+            "required": true
+        },
+        "label": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

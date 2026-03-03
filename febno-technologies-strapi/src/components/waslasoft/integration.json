@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_waslasoft_integrations",
+  "info": {
+    "displayName": "Integration",
+    "description": "Waslasoft Integrations Section"
+  },
+  "options": {},
+  "attributes": {
+    "maintitle": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "apps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "waslasoft.app-item"
+    }
+  }
+}

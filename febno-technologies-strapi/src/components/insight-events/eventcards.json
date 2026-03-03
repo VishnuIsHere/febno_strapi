@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_insight_events_eventcards",
+  "info": {
+    "displayName": "eventcards"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "timestart": {
+      "type": "time"
+    },
+    "timeend": {
+      "type": "time"
+    }
+  },
+  "config": {}
+}

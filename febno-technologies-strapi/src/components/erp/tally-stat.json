@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_erp_tally_stats",
+    "info": {
+        "displayName": "Tally Stat",
+        "description": "Stat item for Footprint section"
+    },
+    "options": {},
+    "attributes": {
+        "number": {
+            "type": "string"
+        },
+        "label": {
+            "type": "string"
+        },
+        "icon": {
+            "type": "string"
+        }
+    }
+}

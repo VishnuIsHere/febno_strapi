@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_erp_tally_service_items",
+    "info": {
+        "displayName": "Tally Service Item",
+        "description": "Service item for Tally Services section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "desc": {
+            "type": "text"
+        },
+        "icon": {
+            "type": "string"
+        }
+    }
+}

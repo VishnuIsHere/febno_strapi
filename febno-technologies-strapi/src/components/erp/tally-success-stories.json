@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_erp_tally_success_stories",
+    "info": {
+        "displayName": "Tally Success Stories",
+        "description": "Success stories section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "stories": {
+            "type": "component",
+            "repeatable": true,
+            "component": "erp.tally-story"
+        }
+    }
+}

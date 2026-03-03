@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_companyhome_images",
+  "info": {
+    "displayName": "images",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

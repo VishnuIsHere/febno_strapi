@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_odoo_industry_items",
+  "info": {
+    "displayName": "Industry Item",
+    "description": "Industry Solution Card"
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "description": { "type": "text" },
+    "icon": { "type": "string" },
+    "tags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "odoo.industry-tag"
+    }
+  }
+}

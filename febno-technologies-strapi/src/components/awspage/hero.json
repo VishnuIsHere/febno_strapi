@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_awspage_heroes",
+  "info": {
+    "displayName": "Hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "maintitle": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "introText": { "type": "text" },
+    "description": { "type": "text" },
+    "primaryCTA": { "type": "string" },
+    "secondaryCTA": { "type": "string" },
+    "features": {
+      "type": "component",
+      "component": "awspage.feature-card",
+      "repeatable": true
+    }
+  }
+}

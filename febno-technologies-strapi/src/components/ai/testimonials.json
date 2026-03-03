@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ai_testimonials",
+  "info": {
+    "displayName": "testimonials",
+    "description": "AI Testimonials Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "erp.testimonial"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contactpage_descriptions",
+  "info": {
+    "displayName": "description",
+    "icon": "earth"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "links": {
+      "type": "component",
+      "component": "contactpage.letsconnect",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

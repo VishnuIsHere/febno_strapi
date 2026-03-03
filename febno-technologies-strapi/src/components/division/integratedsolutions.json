@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_division_integratedsolutions",
+  "info": {
+    "displayName": "integratedsolutions"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "component": "heading.heading1",
+      "repeatable": false
+    },
+    "integratedcards": {
+      "type": "component",
+      "component": "companyhome.cards",
+      "repeatable": true
+    },
+    "divisionconnect": {
+      "type": "component",
+      "component": "division.connect",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

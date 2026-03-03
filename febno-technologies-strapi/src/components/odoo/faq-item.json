@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_odoo_faq_items",
+  "info": {
+    "displayName": "FAQ Item",
+    "description": "Question and Answer"
+  },
+  "options": {},
+  "attributes": {
+    "question": { "type": "string" },
+    "answer": { "type": "text" }
+  }
+}

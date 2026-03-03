@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ai_case_studies",
+  "info": {
+    "displayName": "case-studies",
+    "description": "AI Case Studies Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "caseStudies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "erp.success-story"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "collectionName": "components_infra_hosting_platform_cards",
+    "info": {
+        "displayName": "Platform Card",
+        "description": "Cloud platform card",
+        "icon": "server"
+    },
+    "options": {},
+    "attributes": {
+        "name": {
+            "type": "string"
+        },
+        "logo": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        }
+    }
+}

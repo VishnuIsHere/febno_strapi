@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_erp_tally_features",
+    "info": {
+        "displayName": "Tally Feature",
+        "description": "Feature card for Tally Hero section"
+    },
+    "options": {},
+    "attributes": {
+        "icon": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_productivity_contents",
+    "info": {
+        "displayName": "content",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "heading": {
+            "type": "string"
+        },
+        "subHeading": {
+            "type": "string"
+        },
+        "mainDescription": {
+            "type": "text"
+        },
+        "secondaryDescription": {
+            "type": "text"
+        }
+    }
+}

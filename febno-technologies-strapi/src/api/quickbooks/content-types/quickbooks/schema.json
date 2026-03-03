@@ -1,0 +1,125 @@
+{
+    "kind": "singleType",
+    "collectionName": "quickbooks",
+    "info": {
+        "singularName": "quickbooks",
+        "pluralName": "quickbooks-page",
+        "displayName": "QuickBooks",
+        "description": "QuickBooks homepage content"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "heroTitle": {
+            "type": "json",
+            "default": [
+                "Tally Business",
+                " Management",
+                "Solutions"
+            ]
+        },
+        "heroSubtitle": {
+            "type": "string",
+            "default": ""
+        },
+        "heroIntroText": {
+            "type": "text"
+        },
+        "heroDescription": {
+            "type": "text"
+        },
+        "heroPrimaryCTA": {
+            "type": "string"
+        },
+        "heroSecondaryCTA": {
+            "type": "string"
+        },
+        "heroFeatures": {
+            "type": "component",
+            "repeatable": true,
+            "component": "quickbooks.hero-feature"
+        },
+        "servicesLogo": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "servicesTitle": {
+            "type": "string"
+        },
+        "servicesSubtitle": {
+            "type": "string"
+        },
+        "servicesParagraph1": {
+            "type": "text"
+        },
+        "servicesParagraph2": {
+            "type": "text"
+        },
+        "servicesSectionTitle": {
+            "type": "string"
+        },
+        "serviceCards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "quickbooks.service-card"
+        },
+        "whyChooseTitle": {
+            "type": "string"
+        },
+        "whyChooseSubtitle": {
+            "type": "string"
+        },
+        "reasonCards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "quickbooks.reason-card"
+        },
+        "footprintTitle": {
+            "type": "string"
+        },
+        "footprintSubtitle": {
+            "type": "string"
+        },
+        "statCards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "quickbooks.stat-card"
+        },
+        "successStoriesTitle": {
+            "type": "string"
+        },
+        "successStoriesSubtitle": {
+            "type": "string"
+        },
+        "successStories": {
+            "type": "component",
+            "repeatable": true,
+            "component": "quickbooks.success-story"
+        },
+        "testimonialsTitle": {
+            "type": "string"
+        },
+        "testimonialsSubtitle": {
+            "type": "string"
+        },
+        "testimonials": {
+            "type": "component",
+            "repeatable": true,
+            "component": "quickbooks.testimonial"
+        },
+        "faqTitle": {
+            "type": "string"
+        },
+        "faqItems": {
+            "type": "component",
+            "repeatable": true,
+            "component": "quickbooks.faq-item"
+        }
+    }
+}

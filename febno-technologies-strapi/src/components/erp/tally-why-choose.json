@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_erp_tally_why_chooses",
+    "info": {
+        "displayName": "Tally Why Choose",
+        "description": "Why Choose Tally section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "items": {
+            "type": "component",
+            "repeatable": true,
+            "component": "erp.tally-reason"
+        }
+    }
+}

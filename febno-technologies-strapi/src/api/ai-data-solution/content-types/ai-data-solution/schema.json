@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "ai_data_solutions",
+  "info": {
+    "singularName": "ai-data-solution",
+    "pluralName": "ai-data-solutions",
+    "displayName": "AI & Data Solutions",
+    "description": "Content for AI & Data Intelligence Solutions page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "zoho.hero",
+      "repeatable": false
+    },
+    "stats": {
+      "type": "component",
+      "component": "ai-solutions.stats",
+      "repeatable": false
+    },
+    "banner": {
+      "type": "component",
+      "component": "ai-solutions.banner",
+      "repeatable": false
+    },
+    "benefits": {
+      "type": "component",
+      "component": "ai-solutions.benefits",
+      "repeatable": false
+    },
+    "grid": {
+      "type": "component",
+      "component": "ai-solutions.grid",
+      "repeatable": false
+    },
+    "caseStudies": {
+      "type": "component",
+      "component": "ai-solutions.case-studies",
+      "repeatable": false
+    },
+    "blog": {
+      "type": "component",
+      "component": "ai-solutions.blog",
+      "repeatable": false
+    }
+  }
+}

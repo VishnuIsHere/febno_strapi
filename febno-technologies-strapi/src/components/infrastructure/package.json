@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_infrastructure_packages_items",
+  "info": {
+    "displayName": "package",
+    "description": "Pricing or Service Package"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "popular": {
+      "type": "boolean",
+      "default": false
+    },
+    "cta": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "infrastructure.list-item"
+    }
+  }
+}

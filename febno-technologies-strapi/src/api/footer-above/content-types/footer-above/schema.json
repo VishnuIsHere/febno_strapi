@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "footer_aboves",
+  "info": {
+    "singularName": "footer-above",
+    "pluralName": "footer-aboves",
+    "displayName": "footer_above"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "arrowicon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "content": {
+      "type": "component",
+      "component": "footercontent.content",
+      "repeatable": true
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "ai_data_intelligences",
+  "info": {
+    "singularName": "ai-data-intelligence",
+    "pluralName": "ai-data-intelligences",
+    "displayName": "AI & Data Intelligence",
+    "description": "Content for the AI & Data Intelligence Division Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ai.hero"
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ai.stats"
+    },
+    "powerBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ai.power-banner"
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ai.benefits"
+    },
+    "solutions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ai.solutions"
+    },
+    "platforms": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ai.platforms"
+    },
+    "caseStudies": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ai.case-studies"
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ai.testimonials"
+    },
+    "insights": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ai.insights"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ai.faq"
+    }
+  }
+}

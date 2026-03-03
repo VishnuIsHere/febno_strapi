@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_azure_why_cards",
+    "info": {
+        "displayName": "Why Card",
+        "description": "Why Choose Azure card"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "desc": {
+            "type": "text"
+        }
+    }
+}

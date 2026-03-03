@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_azure_faq_items",
+    "info": {
+        "displayName": "FAQ Item",
+        "description": "Azure FAQ item"
+    },
+    "options": {},
+    "attributes": {
+        "question": {
+            "type": "string"
+        },
+        "answer": {
+            "type": "text"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_infrastructure_list_items",
+  "info": {
+    "displayName": "list-item",
+    "description": "Simple text item for lists"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

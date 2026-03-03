@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_companyhome_descriptions",
+  "info": {
+    "displayName": "descriptions"
+  },
+  "options": {},
+  "attributes": {
+    "descriptions": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

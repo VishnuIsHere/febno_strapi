@@ -1,0 +1,17 @@
+{
+    "collectionName": "components_google_cloud_why_choose_cards",
+    "info": {
+        "displayName": "Why Choose Card",
+        "icon": "check-square",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "collectionName": "components_quickbooks_faq_items",
+    "info": {
+        "displayName": "FAQ Item",
+        "description": "QuickBooks frequently asked question"
+    },
+    "options": {},
+    "attributes": {
+        "question": {
+            "type": "string",
+            "required": true
+        },
+        "answer": {
+            "type": "text",
+            "required": true
+        }
+    }
+}

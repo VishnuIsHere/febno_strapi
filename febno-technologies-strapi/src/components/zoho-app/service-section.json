@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_zoho_app_service_sections",
+    "info": {
+        "displayName": "service-section",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "heading": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "services": {
+            "type": "component",
+            "repeatable": true,
+            "component": "zoho-app.service-item"
+        }
+    }
+}

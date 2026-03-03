@@ -1,0 +1,18 @@
+{
+    "collectionName": "components_erp_tally_faqs",
+    "info": {
+        "displayName": "Tally FAQ",
+        "description": "Frequently Asked Questions section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "questions": {
+            "type": "component",
+            "repeatable": true,
+            "component": "erp.tally-question"
+        }
+    }
+}

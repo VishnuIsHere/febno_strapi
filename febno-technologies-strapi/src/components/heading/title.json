@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_heading_titles",
+  "info": {
+    "displayName": "title"
+  },
+  "options": {},
+  "attributes": {
+    "text1": {
+      "type": "string"
+    },
+    "text2": {
+      "type": "string"
+    },
+    "icons": {
+      "type": "component",
+      "component": "images.image",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

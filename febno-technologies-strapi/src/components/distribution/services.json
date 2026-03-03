@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_distribution_services",
+  "info": {
+    "displayName": "Services",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "description": { "type": "text" },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "distribution.service-item"
+    }
+  }
+}

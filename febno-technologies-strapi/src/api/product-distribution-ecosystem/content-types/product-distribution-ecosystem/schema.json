@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "product_distribution_ecosystems",
+  "info": {
+    "singularName": "product-distribution-ecosystem",
+    "pluralName": "product-distribution-ecosystems",
+    "displayName": "Product Distribution Ecosystem",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "distribution.hero"
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": false,
+      "component": "distribution.stats"
+    },
+    "platforms": {
+      "type": "component",
+      "repeatable": false,
+      "component": "distribution.platform-section"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "distribution.services"
+    },
+    "ecosystemProperties": {
+      "type": "component",
+      "repeatable": false,
+      "component": "distribution.ecosystem-properties"
+    },
+    "caseStudies": {
+      "type": "component",
+      "repeatable": false,
+      "component": "distribution.case-studies"
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "distribution.testimonials"
+    },
+    "insights": {
+      "type": "component",
+      "repeatable": false,
+      "component": "distribution.insights"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "distribution.faq"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "distribution.cta"
+    }
+  }
+}

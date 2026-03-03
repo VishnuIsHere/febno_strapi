@@ -1,0 +1,37 @@
+{
+    "collectionName": "components_zoho_app_blog_articles",
+    "info": {
+        "displayName": "blog-article",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "category": {
+            "type": "string"
+        },
+        "date": {
+            "type": "string"
+        },
+        "readTime": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "author": {
+            "type": "string"
+        },
+        "icon": {
+            "type": "string"
+        },
+        "extra_content": {
+            "type": "richtext"
+        },
+        "bullets": {
+            "type": "json"
+        }
+    }
+}

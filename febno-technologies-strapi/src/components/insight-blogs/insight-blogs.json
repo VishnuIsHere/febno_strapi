@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_insight_blogs_insight_blogs",
+  "info": {
+    "displayName": "insight-blogs"
+  },
+  "options": {},
+  "attributes": {
+    "blogsheading": {
+      "type": "component",
+      "component": "heading.heading1",
+      "repeatable": false
+    },
+    "blogcard": {
+      "type": "component",
+      "component": "insight-blogs.blogcard",
+      "repeatable": true
+    },
+    "blog_btn": {
+      "type": "component",
+      "component": "button-items.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

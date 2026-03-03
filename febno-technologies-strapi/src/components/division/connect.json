@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_division_connects",
+  "info": {
+    "displayName": "connect"
+  },
+  "options": {},
+  "attributes": {
+    "headings": {
+      "type": "component",
+      "component": "companyhome.content",
+      "repeatable": false
+    },
+    "btn": {
+      "type": "component",
+      "component": "button-items.button",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

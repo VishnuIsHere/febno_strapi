@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "company_clients",
+  "info": {
+    "singularName": "company-client",
+    "pluralName": "company-clients",
+    "displayName": "Company-client"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "clientshero": {
+      "type": "component",
+      "component": "companyhome.company",
+      "repeatable": false
+    },
+    "companystatistics": {
+      "type": "component",
+      "component": "companyhome.companystatistics",
+      "repeatable": false
+    },
+    "industry": {
+      "type": "component",
+      "component": "companyhome.industry",
+      "repeatable": false
+    },
+    "client_review": {
+      "type": "component",
+      "component": "companyhome.client-review",
+      "repeatable": false
+    }
+  }
+}

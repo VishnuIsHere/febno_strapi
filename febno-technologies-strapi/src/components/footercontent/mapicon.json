@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_footercontent_mapicons",
+  "info": {
+    "displayName": "mapicon"
+  },
+  "options": {},
+  "attributes": {
+    "maps": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

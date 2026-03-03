@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "azure_pages",
+  "info": {
+    "singularName": "azure-page",
+    "pluralName": "azure-pages",
+    "displayName": "Azure Page",
+    "description": "Content for Azure Infrastructure Hosting Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "component": "azure.hero",
+      "repeatable": false
+    },
+    "AzureInfrastructureServices": {
+      "type": "component",
+      "component": "azure.services",
+      "repeatable": false
+    },
+    "WhyBusiness": {
+      "type": "component",
+      "component": "azure.why-choose",
+      "repeatable": false
+    },
+    "globalfootprint": {
+      "type": "component",
+      "component": "azure.globalfootprint",
+      "repeatable": false
+    },
+    "VideoSection": {
+      "type": "component",
+      "component": "azure.video-section",
+      "repeatable": false
+    },
+    "CaseStudies": {
+      "type": "component",
+      "component": "azure.case-studies",
+      "repeatable": false
+    },
+    "Testimonials": {
+      "type": "component",
+      "component": "azure.testimonials",
+      "repeatable": false
+    },
+    "FAQ": {
+      "type": "component",
+      "component": "azure.faq",
+      "repeatable": false
+    }
+  }
+}

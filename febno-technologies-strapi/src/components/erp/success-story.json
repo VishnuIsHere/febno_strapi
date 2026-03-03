@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_erp_success_stories",
+  "info": {
+    "displayName": "success-story",
+    "description": "Success story card"
+  },
+  "options": {},
+  "attributes": {
+    "company": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "iconName": {
+      "type": "string",
+      "description": "Lucide icon name"
+    }
+  }
+}

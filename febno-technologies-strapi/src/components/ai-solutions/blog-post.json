@@ -1,0 +1,30 @@
+{
+    "collectionName": "components_ai_solutions_blog_posts",
+    "info": {
+        "displayName": "Blog Post",
+        "description": "Blog post summary card"
+    },
+    "options": {},
+    "attributes": {
+        "category": {
+            "type": "string"
+        },
+        "date": {
+            "type": "string"
+        },
+        "iconName": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "readMoreLink": {
+            "type": "string",
+            "default": "#"
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_nav_image_arrows",
+  "info": {
+    "displayName": "image-arrow"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "mobile_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "arrow": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "digitalplatform": {
+      "type": "component",
+      "component": "subitems.sub-subitem",
+      "repeatable": true,
+      "default": []
+    }
+  },
+  "config": {}
+}

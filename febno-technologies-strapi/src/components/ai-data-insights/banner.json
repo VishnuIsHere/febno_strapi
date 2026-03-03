@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_ai_data_insights_banners",
+    "info": {
+        "displayName": "Banner",
+        "description": "Banner section for AI Data Insights"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_insight_blogs_blogcards",
+  "info": {
+    "displayName": "blogcard"
+  },
+  "options": {},
+  "attributes": {
+    "blogimage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "blogcontent": {
+      "type": "component",
+      "component": "companyhome.content",
+      "repeatable": false
+    },
+    "author": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

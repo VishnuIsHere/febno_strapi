@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ai_solutions",
+  "info": {
+    "displayName": "solutions",
+    "description": "AI Solutions Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "awspage.feature-card"
+    }
+  }
+}

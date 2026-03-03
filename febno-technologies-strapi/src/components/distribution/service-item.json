@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_distribution_service_items",
+  "info": {
+    "displayName": "Service Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": { "type": "string" },
+    "title": { "type": "string" },
+    "description": { "type": "text" }
+  }
+}

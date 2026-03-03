@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_waslasoft_footprints",
+  "info": {
+    "displayName": "Footprint",
+    "description": "Waslasoft Global Footprint"
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "waslasoft.stat-item"
+    }
+  }
+}

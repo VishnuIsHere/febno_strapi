@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_awspage_video_lists",
+  "info": {
+    "displayName": "Video List",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "maintitle": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "videos": {
+      "type": "component",
+      "component": "awspage.video-card",
+      "repeatable": true
+    }
+  }
+}

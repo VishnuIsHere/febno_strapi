@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_insight_subscription_insight_subscriptions",
+  "info": {
+    "displayName": "insight-subscription"
+  },
+  "options": {},
+  "attributes": {
+    "subscriptionheading": {
+      "type": "component",
+      "component": "heading.heading1",
+      "repeatable": false
+    },
+    "subscribebtn": {
+      "type": "component",
+      "component": "button-items.button",
+      "repeatable": false
+    },
+    "contactbtn": {
+      "type": "component",
+      "component": "button-items.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

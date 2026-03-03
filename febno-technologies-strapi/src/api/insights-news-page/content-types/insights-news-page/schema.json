@@ -1,0 +1,24 @@
+{
+    "kind": "singleType",
+    "collectionName": "insights_news_pages",
+    "info": {
+        "singularName": "insights-news-page",
+        "pluralName": "insights-news-pages",
+        "displayName": "Insights News Page",
+        "description": "Content for the Insights News Page (View All News)"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "Hero": {
+            "type": "component",
+            "component": "insights-blog.hero"
+        },
+        "LatestNewsSection": {
+            "type": "component",
+            "component": "insights-blog.latest-blogs-section"
+        }
+    }
+}

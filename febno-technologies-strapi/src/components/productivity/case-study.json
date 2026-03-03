@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_productivity_case_studies",
+  "info": {
+    "displayName": "case-study",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "industry": {
+      "type": "string"
+    },
+    "size": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "text"
+    }
+  }
+}

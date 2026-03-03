@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_insight_review_insight_reviews",
+  "info": {
+    "displayName": "insight-review"
+  },
+  "options": {},
+  "attributes": {
+    "reviewheading": {
+      "type": "component",
+      "component": "heading.heading1",
+      "repeatable": false
+    },
+    "reviewcard": {
+      "type": "component",
+      "component": "insight-review.reviewcard",
+      "repeatable": true
+    },
+    "reviewbtn": {
+      "type": "component",
+      "component": "button-items.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

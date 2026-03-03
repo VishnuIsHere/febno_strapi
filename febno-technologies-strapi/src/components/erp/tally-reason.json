@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_erp_tally_reasons",
+    "info": {
+        "displayName": "Tally Reason",
+        "description": "Reason item for Why Choose Tally section"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "desc": {
+            "type": "text"
+        },
+        "icon": {
+            "type": "string"
+        }
+    }
+}

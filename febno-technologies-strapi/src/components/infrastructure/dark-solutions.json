@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_infrastructure_dark_solutions",
+  "info": {
+    "displayName": "dark-solutions",
+    "description": "Dark Mode Solutions Grid"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "awspage.feature-card"
+    }
+  }
+}

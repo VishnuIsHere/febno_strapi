@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_company_project_project_categories",
+  "info": {
+    "displayName": "project-category"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "component": "division.list",
+      "repeatable": true
+    },
+    "category_card": {
+      "type": "component",
+      "component": "company-project.category-card",
+      "repeatable": true
+    },
+    "btnproject": {
+      "type": "component",
+      "component": "button-items.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

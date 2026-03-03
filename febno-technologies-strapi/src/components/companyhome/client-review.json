@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_companyhome_client_reviews",
+  "info": {
+    "displayName": "client_review"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "reviewcard": {
+      "type": "component",
+      "component": "insight-review.reviewcard",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

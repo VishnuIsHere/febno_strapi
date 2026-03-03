@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_erp_testimonials",
+  "info": {
+    "displayName": "testimonial",
+    "description": "Client testimonial"
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "stars": {
+      "type": "integer",
+      "default": 5
+    }
+  }
+}

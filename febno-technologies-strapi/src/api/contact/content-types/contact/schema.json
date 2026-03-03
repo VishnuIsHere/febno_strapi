@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "herosession": {
+      "type": "component",
+      "component": "companyhome.company",
+      "repeatable": false
+    },
+    "letsconnect_session": {
+      "type": "component",
+      "component": "heading.heading1",
+      "repeatable": false
+    },
+    "below_contents": {
+      "type": "component",
+      "component": "contactpage.description",
+      "repeatable": false
+    },
+    "contact_qna": {
+      "type": "component",
+      "component": "heading.heading1",
+      "repeatable": false
+    },
+    "ques_ans": {
+      "type": "component",
+      "component": "companyhome.qna",
+      "repeatable": true
+    },
+    "locations": {
+      "type": "component",
+      "component": "contactpage.location",
+      "repeatable": true
+    }
+  }
+}

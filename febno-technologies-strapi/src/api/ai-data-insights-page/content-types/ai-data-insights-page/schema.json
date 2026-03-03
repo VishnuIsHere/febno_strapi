@@ -1,0 +1,61 @@
+{
+    "kind": "singleType",
+    "collectionName": "ai_data_insights_pages",
+    "info": {
+        "singularName": "ai-data-insights-page",
+        "pluralName": "ai-data-insights-pages",
+        "displayName": "AI Data Insights Page",
+        "description": "Content for AI Data Analytics & Business Insights Page"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "hero": {
+            "type": "component",
+            "repeatable": false,
+            "component": "ai-data-insights.hero"
+        },
+        "stats": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.stat-card"
+        },
+        "banner": {
+            "type": "component",
+            "repeatable": false,
+            "component": "ai-data-insights.banner"
+        },
+        "benefits": {
+            "type": "component",
+            "repeatable": false,
+            "component": "ai-data-insights.benefits"
+        },
+        "solutions": {
+            "type": "component",
+            "repeatable": false,
+            "component": "ai-data-insights.solutions"
+        },
+        "caseStudies": {
+            "type": "component",
+            "repeatable": false,
+            "component": "infrastructure-page.case-studies"
+        },
+        "testimonials": {
+            "type": "component",
+            "repeatable": false,
+            "component": "shared.testimonial-section"
+        },
+        "blog": {
+            "type": "component",
+            "repeatable": false,
+            "component": "ai-data-insights.blog"
+        },
+        "faq": {
+            "type": "component",
+            "repeatable": false,
+            "component": "infrastructure-page.faq"
+        }
+    }
+}

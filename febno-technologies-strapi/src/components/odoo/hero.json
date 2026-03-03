@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_odoo_heroes",
+  "info": {
+    "displayName": "Hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "introText": { "type": "text" },
+    "description": { "type": "text" },
+    "primaryCTA": { "type": "string" },
+    "secondaryCTA": { "type": "string" },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "odoo.feature"
+    }
+  }
+}

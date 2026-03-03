@@ -1,0 +1,30 @@
+{
+    "collectionName": "components_shared_testimonials",
+    "info": {
+        "displayName": "Testimonial",
+        "description": "Reusable testimonial card"
+    },
+    "options": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "role": {
+            "type": "string",
+            "required": true
+        },
+        "company": {
+            "type": "string",
+            "required": true
+        },
+        "quote": {
+            "type": "text",
+            "required": true
+        },
+        "rating": {
+            "type": "integer",
+            "default": 5
+        }
+    }
+}

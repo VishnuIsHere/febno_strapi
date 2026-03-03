@@ -1,0 +1,51 @@
+{
+    "kind": "singleType",
+    "collectionName": "tallies",
+    "info": {
+        "singularName": "tally",
+        "pluralName": "tallies",
+        "displayName": "Tally",
+        "description": "Detailed content for ERP -> Tally page"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "Hero": {
+            "type": "component",
+            "repeatable": false,
+            "component": "erp.tally-hero"
+        },
+        "Services": {
+            "type": "component",
+            "repeatable": false,
+            "component": "erp.tally-services"
+        },
+        "WhyChoose": {
+            "type": "component",
+            "repeatable": false,
+            "component": "erp.tally-why-choose"
+        },
+        "Footprint": {
+            "type": "component",
+            "repeatable": false,
+            "component": "erp.tally-footprint"
+        },
+        "SuccessStories": {
+            "type": "component",
+            "repeatable": false,
+            "component": "erp.tally-success-stories"
+        },
+        "Testimonials": {
+            "type": "component",
+            "repeatable": false,
+            "component": "erp.tally-testimonials"
+        },
+        "FAQ": {
+            "type": "component",
+            "repeatable": false,
+            "component": "erp.tally-faq"
+        }
+    }
+}

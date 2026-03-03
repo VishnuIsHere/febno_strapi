@@ -1,0 +1,43 @@
+{
+    "kind": "singleType",
+    "collectionName": "zoho_industry_pages",
+    "info": {
+        "singularName": "zoho-industry-page",
+        "pluralName": "zoho-industry-pages",
+        "displayName": "Zoho Industry Page",
+        "description": "Dynamic content for Zoho Industry Page"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "hero_section": {
+            "type": "component",
+            "repeatable": false,
+            "component": "zoho-app.hero"
+        },
+        "industry_section": {
+            "type": "component",
+            "repeatable": true,
+            "component": "zoho-app.app-item"
+        },
+        "industry_section_title": {
+            "type": "string"
+        },
+        "industry_section_description": {
+            "type": "text"
+        },
+        "overview_section": {
+            "type": "component",
+            "repeatable": true,
+            "component": "zoho-app.industry-feature"
+        },
+        "overview_section_title": {
+            "type": "string"
+        },
+        "overview_section_description": {
+            "type": "text"
+        }
+    }
+}

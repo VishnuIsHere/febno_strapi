@@ -1,0 +1,13 @@
+{
+    "collectionName": "components_erp_simple_text_lines",
+    "info": {
+        "displayName": "Simple Text Line",
+        "description": "A simple wrapper for a text line, useful for repeatable arrays of strings"
+    },
+    "options": {},
+    "attributes": {
+        "text": {
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_azure_services_sections",
+  "info": {
+    "displayName": "Services Section",
+    "description": "Azure services section (replaces Instruction)"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "services": {
+      "type": "component",
+      "component": "azure.service",
+      "repeatable": true
+    }
+  }
+}

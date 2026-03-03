@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_odoo_integrations",
+  "info": {
+    "displayName": "Integration",
+    "description": "Integration Section"
+  },
+  "options": {},
+  "attributes": {
+    "maintitle": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "apps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "odoo.app"
+    }
+  }
+}

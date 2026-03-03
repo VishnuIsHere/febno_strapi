@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "migrations",
+  "info": {
+    "singularName": "migration",
+    "pluralName": "migrations",
+    "displayName": "Migration",
+    "description": "Content for the Migration page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "infra-hosting.hero",
+      "repeatable": false
+    },
+    "intro": {
+      "type": "component",
+      "component": "infra-hosting.intro-section",
+      "repeatable": false
+    },
+    "migration_stories": {
+      "type": "component",
+      "component": "infra-hosting.case-study-section",
+      "repeatable": false
+    },
+    "knowledge_hub": {
+      "type": "component",
+      "component": "infra-hosting.knowledge-hub",
+      "repeatable": false
+    },
+    "testimonials": {
+      "type": "component",
+      "component": "infra-hosting.testimonial-section",
+      "repeatable": false
+    },
+    "insights": {
+      "type": "component",
+      "component": "infra-hosting.insights-section",
+      "repeatable": false
+    },
+    "features": {
+      "type": "component",
+      "component": "infra-hosting.features-section",
+      "repeatable": false
+    },
+    "faqs": {
+      "type": "component",
+      "component": "infra-hosting.faq-section",
+      "repeatable": false
+    }
+  }
+}

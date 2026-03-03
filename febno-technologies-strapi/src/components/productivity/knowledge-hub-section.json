@@ -1,0 +1,33 @@
+{
+    "collectionName": "components_productivity_knowledge_hub_sections",
+    "info": {
+        "displayName": "knowledge-hub-section",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "heading": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "videoTitle": {
+            "type": "string"
+        },
+        "videoThumbnail": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images",
+                "videos"
+            ]
+        },
+        "buttonText": {
+            "type": "string"
+        },
+        "buttonLink": {
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_waslasoft_stat_items",
+  "info": {
+    "displayName": "Stat Item",
+    "description": "Waslasoft Stats"
+  },
+  "options": {},
+  "attributes": {
+    "number": { "type": "string" },
+    "label": { "type": "string" },
+    "icon": { "type": "string" }
+  }
+}

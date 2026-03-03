@@ -1,0 +1,15 @@
+{
+    "collectionName": "components_ai_solutions_navs",
+    "info": {
+        "displayName": "Nav",
+        "description": "Inner navigation menu"
+    },
+    "options": {},
+    "attributes": {
+        "items": {
+            "type": "component",
+            "repeatable": true,
+            "component": "ai-solutions.link"
+        }
+    }
+}

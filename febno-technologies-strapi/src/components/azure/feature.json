@@ -1,0 +1,20 @@
+{
+    "collectionName": "components_azure_features",
+    "info": {
+        "displayName": "Feature",
+        "description": "Azure feature item with icon"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "icon": {
+            "type": "string",
+            "description": "Lucide icon name"
+        }
+    }
+}

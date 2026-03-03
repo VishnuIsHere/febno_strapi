@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_globalsourcing_talent_pools",
+  "info": {
+    "displayName": "Talent Pool",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "maintitle": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "stats": {
+      "type": "component",
+      "component": "awspage.stat-card",
+      "repeatable": true
+    },
+    "talent_cards": {
+        "type": "component",
+        "component": "globalsourcing.talent-card",
+        "repeatable": true
+    }
+  }
+}

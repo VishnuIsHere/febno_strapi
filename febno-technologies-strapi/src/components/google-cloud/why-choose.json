@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_google_cloud_why_chooses",
+    "info": {
+        "displayName": "Why Choose",
+        "icon": "question",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "text"
+        },
+        "cards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "google-cloud.why-choose-card"
+        }
+    }
+}

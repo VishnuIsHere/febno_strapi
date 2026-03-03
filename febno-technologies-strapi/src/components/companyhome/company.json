@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_companyhome_companies",
+  "info": {
+    "displayName": "company"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "component": "companyhome.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

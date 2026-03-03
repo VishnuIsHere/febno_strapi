@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_erp_heroes",
+  "info": {
+    "displayName": "hero",
+    "description": "Hero section for ERP page"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "introText": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "primaryCTA": {
+      "type": "string",
+      "default": "Explore ERP Solutions"
+    },
+    "secondaryCTA": {
+      "type": "string",
+      "default": "View Benefits"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "awspage.feature-card"
+    }
+  }
+}

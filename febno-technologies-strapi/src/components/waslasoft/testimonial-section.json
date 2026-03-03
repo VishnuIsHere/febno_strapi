@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_waslasoft_testimonial_sections",
+  "info": {
+    "displayName": "Testimonial Section",
+    "description": "Waslasoft Testimonials List"
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "waslasoft.testimonial"
+    }
+  }
+}

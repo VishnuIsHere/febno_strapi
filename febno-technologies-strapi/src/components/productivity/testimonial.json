@@ -1,0 +1,29 @@
+{
+    "collectionName": "components_productivity_testimonials",
+    "info": {
+        "displayName": "testimonial",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "name": {
+            "type": "string"
+        },
+        "role": {
+            "type": "string"
+        },
+        "content": {
+            "type": "text"
+        },
+        "rating": {
+            "type": "integer"
+        },
+        "avatar": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images"
+            ]
+        }
+    }
+}

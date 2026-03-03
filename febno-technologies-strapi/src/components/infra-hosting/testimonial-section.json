@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_infra_hosting_testimonial_sections",
+    "info": {
+        "displayName": "Testimonial Section",
+        "description": "Section for client testimonials",
+        "icon": "users"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "testimonials": {
+            "type": "component",
+            "repeatable": true,
+            "component": "infra-hosting.testimonial-card"
+        }
+    }
+}

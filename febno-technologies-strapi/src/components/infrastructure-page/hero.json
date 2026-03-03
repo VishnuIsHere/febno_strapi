@@ -1,0 +1,38 @@
+{
+    "collectionName": "components_infrastructure_page_heroes",
+    "info": {
+        "displayName": "Hero",
+        "description": "Hero section for Infrastructure page"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "json",
+            "required": true
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "introText": {
+            "type": "text",
+            "required": true
+        },
+        "description": {
+            "type": "text",
+            "required": true
+        },
+        "primaryCTA": {
+            "type": "string",
+            "required": true
+        },
+        "secondaryCTA": {
+            "type": "string",
+            "required": true
+        },
+        "features": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.feature-card"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_distribution_case_studies",
+  "info": {
+    "displayName": "Case Study",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category": { "type": "string" },
+    "title": { "type": "string" },
+    "description": { "type": "text" },
+    "icon": { "type": "string" },
+    "color": { "type": "string" }
+  }
+}
