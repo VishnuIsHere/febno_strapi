@@ -16,7 +16,7 @@ module.exports = {
     'src/**/*.ts',
     '!src/**/*.d.ts',
     '!src/api/**/routes/*.ts',
-    '!src/api/**/controllers/*.ts',
+    '!src/api/!(insights-news-page|insights-blog-page)/controllers/*.ts',
     '!src/api/**/services/*.ts',
     '!src/index.ts',
   ],
