@@ -1,4 +1,5 @@
- export default ({ env }) => ({
+export default ({ env }) => ({
+  url: '/febno-url-admin',
   auth: {
     secret: env('ADMIN_JWT_SECRET', 'someVerySecretValue123!'),
   },

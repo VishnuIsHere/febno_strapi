@@ -51,11 +51,11 @@ module.exports = ({ env }) => ({
 
   // Important: Tell Strapi where admin panel is served
   admin: {
-    url: 'https://febnosite.febnotech.com/admin',
+    url: 'https://febnosite.febnotech.com/febno-url-admin',
     serveAdminPanel: true,
   },
 
   app: {
-    keys: env.array('APP_KEYS', ['key1', 'key2']),
+    keys: env.array('APP_KEYS'),
   },
 });

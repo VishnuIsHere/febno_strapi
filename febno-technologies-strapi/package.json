@@ -12,14 +12,12 @@
     "start": "strapi start",
     "strapi": "strapi",
     "upgrade": "npx @strapi/upgrade latest",
-    "upgrade:dry": "npx @strapi/upgrade latest --dry",
-    "test": "jest",
-"test:coverage": "jest --coverage"
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "5.29.0",
-    "@strapi/plugin-users-permissions": "5.29.0",
-    "@strapi/strapi": "5.29.0",
+    "@strapi/plugin-cloud": "^5.37.1",
+    "@strapi/plugin-users-permissions": "^5.37.1",
+    "@strapi/strapi": "^5.37.1",
     "better-sqlite3": "11.3.0",
     "pg": "^8.16.3",
     "react": "^18.0.0",
@@ -28,12 +26,9 @@
     "styled-components": "^6.0.0"
   },
   "devDependencies": {
-    "@types/jest": "^30.0.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "jest": "^30.2.0",
-    "ts-jest": "^29.4.6",
     "typescript": "^5"
   },
   "engines": {
@@ -45,6 +40,3 @@
     "installId": "fe4df08ed7cca1f7acdc9f083cdf724b82ff095e9b20f08c2513e7b386779e48"
   }
 }
-
-
-
